@@ -8,11 +8,11 @@ Learn how to work with a git repo to do version control while disconnected from 
 
 ## Commands
 
-init - create a new archive
-add - add changes to the staging index
-status - show changes in source code
-commit - move all changes from staging to repo
-checkout - move a specific version of code into the working directory
+* init - create a new archive
+* add - add changes to the staging index
+* status - show changes in source code
+* commit - move all changes from staging to repo
+* checkout - move a specific version of code into the working directory
 
 
 ## Practice
