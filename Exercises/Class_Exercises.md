@@ -2,7 +2,7 @@
 
 Exercises for this class
 
-* [Project Plan](Project_Plan.html)
-* Technology Plan
-* Design Plan
+* [Project Plan](Project_Plan_Exercise.html)
+* [Technology Plan](Tech_Plan_Exercise.html)
+* [Design Plan](Design_Plan_Exercise.html)
 
