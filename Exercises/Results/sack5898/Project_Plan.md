@@ -28,7 +28,8 @@ Friends List
 *	Friends List page will have a search button to look for other users.
 *	Once another user is found, requests to link as friends can be sent and link will be complete when the other user accepts.
 *	Users will be able to sort their friends list by age, length of friendship, etc.
- 
+
+
 User Stories:
 
 Log-in Page
