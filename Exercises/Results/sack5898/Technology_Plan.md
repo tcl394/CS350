@@ -1,8 +1,8 @@
-Technology Plan
+# Technology Plan
 
-Frameworks:
+## Frameworks:
 
-1.	Ruby on Rails
+### 1.	Ruby on Rails
 
 a.	Popularity – Ruby on Rails seems quite popular for web applications. Wikipedia states “As of January 2016, it is estimated that more than 1.2 million web sites are running Ruby on Rails.
 
@@ -32,11 +32,8 @@ c.	Community – With multiple online forums and the Angular Connect Conference,
 
 d.	Expertise – Mostly used for web applications
 
+## Cost of Learning:
 
-
-
-
-Cost of Learning:
 (Based on Python)
 *	IDE – 100+ Hours
 *	Version Control – Less than 100 hours
