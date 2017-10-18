@@ -12,7 +12,7 @@ c.	Community – RoR seems to have good support with such forums as https://gora
 
 d.	Expertise – Seems RoR is most used for web applications
 
-2.	Python/Django
+### 2.	Python/Django
 
 a.	Popularity - https://hotframeworks.com/ gives Django an overall score of 92/100 just a couple below RoR
 
@@ -22,7 +22,7 @@ c.	Community – seems to have a good community with a semiannual conference cal
 
 d.	Expertise – Mostly used for web applications
 
-3.	AngularJS
+### 3.	AngularJS
 
 a.	Popularity – AngularJS has the second highest ranking on https://hotframeworks.com/ with an overall score of 97/100
 
