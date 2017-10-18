@@ -1,6 +1,6 @@
-Social Network Project Proposal
+# Social Network Project Proposal
 
-Purpose
+## Purpose
 
 The purpose of this document is to establish the Minimum Viable Product for a Social Media Tool (SMT) to be used by Uncle Ed Software
 Features:
