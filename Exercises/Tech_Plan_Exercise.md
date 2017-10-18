@@ -49,6 +49,8 @@ Select the Tools that you will use for the Social Networking application.
 
 ## Cost of Learning
 
+Use the [Drefus Model](DreyfusModel.md) to assess your current skill level.
+
 Assess your experience level by counting hours you have spent using each tool or technology.
 
 For each technology that you have spent less than 100 hours with, add 16 hours to the project cost estimate.
