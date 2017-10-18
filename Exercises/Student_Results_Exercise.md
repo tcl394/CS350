@@ -18,7 +18,7 @@ Add a file folder to Exercise/Results account
 
 Repo: CS350
 
-Create a File: Index.md
+## Create a File: Index.md
 
 Set the text
 
@@ -42,8 +42,7 @@ Upload this file and edit the name to be "Exercises/Results/Project_Plan.md"
 
 Check out this page for some help
 
-https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/seam1807/Index.md (Links to an external site.)Links to an external site.
-
+https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/seam1870/Index.md
  
 
 ## Look at the Commit History
