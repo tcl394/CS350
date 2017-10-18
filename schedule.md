@@ -26,7 +26,7 @@ Design
 
 	* Architecture & Interfaces
 	* Detailed Design
-	* Patterns & Reuse
+	* Data Design
 
 
 
@@ -35,8 +35,8 @@ Design
 Code
 
 	* Test-driven Development
-	* Simple, Second, General, Optimum
 	* Multiple Development Loops
+	* Simple, Second, General, Optimum
 
 
 
