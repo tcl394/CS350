@@ -26,7 +26,7 @@ Design
 
 	* Architecture & Interfaces
 	* Detailed Design
-	* Patterns & Reuse
+	* Data Design
 
 
 
