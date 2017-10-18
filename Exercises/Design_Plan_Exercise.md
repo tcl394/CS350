@@ -123,46 +123,46 @@ Start with Architecture (High-level Design)
 World Press Web Server Interface 
 
 
-	* Login
+* Login
 
-		* register (name, email, password)
-		* login (name, password)
-	* Author
+	* register (name, email, password)
+	* login (name, password)
+* Author
 
-		* add_post (user, title, body)
-		* edit_post (user, title, body)
-		* delete_post (user, title)
-	* Reader
+	* add_post (user, title, body)
+	* edit_post (user, title, body)
+	* delete_post (user, title)
+* Reader
 
-		* get_post (title)
-		* list_posts (user)
-	* News
+	* get_post (title)
+	* list_posts (user)
+* News
 
-		* register (email)
-		* verify_email (token)
-		* unsubscribe (email)
+	* register (email)
+	* verify_email (token)
+	* unsubscribe (email)
 
 
 World Press Application Server Interface (Functions)
 
 
-	* User
+* User
 
-		* create_user (name, email, password)
-		* read_user (name, password) --> user_id
-		* list_user () --> user list
-		* update_user (name, email, password)
-		* delete_user (user_id)
+	* create_user (name, email, password)
+	* read_user (name, password) --> user_id
+	* list_user () --> user list
+	* update_user (name, email, password)
+	* delete_user (user_id)
 
 
 
-	* Article
+* Article
 
-		* create_article (user_id, title, body)
-		* read_article (article_id)
-		* list_article (user_id)
-		* update_article (user_id, title, body)
-		* delete_article (user_id)
+	* create_article (user_id, title, body)
+	* read_article (article_id)
+	* list_article (user_id)
+	* update_article (user_id, title, body)
+	* delete_article (user_id)
 
 
 
@@ -179,49 +179,49 @@ ORM
 World Press Data
 
 
-	* User
+* User
 
-		* name, email, password
-	* Post
+	* name, email, password
+* Post
 
-		* user, title, body
-	* Subscriber
+	* user, title, body
+* Subscriber
 
-		* email, user
+	* email, user
 
 
 World Press Classes
 
 
-	* User
+* User
 
-		* name, email, password
-	* Post
+	* name, email, password
+* Post
 
-		* user, title, body
-	* Subscriber
+	* user, title, body
+* Subscriber
 
-		* email, user
+	* email, user
 
 
 World Press Functions for Data
 
-  # Article
+	  # Article
 
-  def create_article (user_id, title, body):
-      Article.object.create (user_id, title, body)
+	  def create_article (user_id, title, body):
+	      Article.object.create (user_id, title, body)
 
-  def list_article (user_id):
-      return Article.objects.all()
+	  def list_article (user_id):
+	      return Article.objects.all()
 
-  def read_article (article_id):
-      return Article.objects.get(pk=article_id)
+	  def read_article (article_id):
+	      return Article.objects.get(pk=article_id)
 
-  def update_article (user_id, title, body):
-      a = Article.objects.get (user_id=user_id, title=title)
-      a.body = body
-      a.save()
+	  def update_article (user_id, title, body):
+	      a = Article.objects.get (user_id=user_id, title=title)
+	      a.body = body
+	      a.save()
 
-  def delete_article (user_id, title):
-      Article.objects.delete(user_id=user_id, title=title)
+	  def delete_article (user_id, title):
+	      Article.objects.delete(user_id=user_id, title=title)
 
