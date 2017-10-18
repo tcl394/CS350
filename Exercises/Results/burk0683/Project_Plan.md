@@ -48,6 +48,7 @@ Essential requirements:
     * Image and Emoji messaging (for the savvy elderly)
     * Formatting (bold, italic, etc.)
     * File sending for sharing
+
 Phase 1 will include a site that can you can sign-up with, make a few posts that are stored, and be able to log out. There will be a very basic covering of the essential requirements, with rough design. Modifications to these requirements may need to take place, but before Phase 2 hits full development.
 
 
