@@ -10,7 +10,7 @@ Exercises for this class
 
 ## Version Control
 
-* [Personal Git](personal-git.md)
-* [Shared Github Account](shared-git.md)
+* [Personal Git](Personal_Git.md)
+* [Shared Github Account](Shared_Git.md)
 * [Student_Results_Exercise](Student_Results_Exercise.md)
 
