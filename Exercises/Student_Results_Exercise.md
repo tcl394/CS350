@@ -13,9 +13,6 @@ Host:  http://github.com (Links to an external site.)Links to an external site.
 
 User: UNC-CS350
 
-Password: Software-Engineer
-
- 
 
 Add a file folder to Exercise/Results account
 
