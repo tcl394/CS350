@@ -30,7 +30,7 @@ Friends List
 *	Users will be able to sort their friends list by age, length of friendship, etc.
 
 
-## User Stories:
+## User Stories
 
 Log-in Page
 
