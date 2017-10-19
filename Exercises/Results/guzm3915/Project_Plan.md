@@ -4,7 +4,7 @@
   * Money -- $10K * 6 months * 5 people = $300K
 
 
-**Milestones**
+### Milestones
 
 **Phase 1 -- Prototype (crawl)**
 *	Proof of concept - all key tech (Login Page, Basic database structure for social network)
@@ -21,7 +21,7 @@
 *	April 1, 2018 - $100K
 *	Additional social networking requirements. (IE: Private Messaging, Profile customization)
 
-###Business
+### Business
 
 **Phase 1**
   * **User abilities**
@@ -42,7 +42,7 @@
         * Backend will have a fully developed database, complete with easy integration for any future updates.
         * Front End will have a fully made and nicely structured GUI for the users to build upon and connect with others that is very easy to understand for the older viewing base. Possible hovertips, warnings for typos, or other small features such as that.
         
-###User stories
+### User stories
 
   * **Rena**
       * “I thought the site was simply fantastic. My grandchildren are always going on and on about how I need to branch out in my social networks, and suggested I take a look at this site. It was very simple and step by step to make an account. I put in my information, and in clear text, it told me what it needed and where I should type it. I was able to find some of my other friends and family on here as well, and the screen made the button to add them to my list of friends very noticeable and easy. I can post with ease, and need’nt worry about messing anything up.”
