@@ -1,6 +1,8 @@
 
-## Tech Plan
-  ### There is nothing here
+## Technology Plan
+
+  ### Framework Selection:
+
   <div>
   <table style="border-collapse: collapse; min-width: 100%;">
     <colgroup>
@@ -144,12 +146,25 @@
         <br/>
       </div></td>
 </tr>
+<tr>
+  <td colspan="5">Note: * Market share comparison between Ruby on Rails, ASP.NET, and PHP</td>
+  </tr>
 
 
 </tbody>
 </table>
 <div>
   
+### Tools to Use:
+    IDE			: ASP.NET
+    Version control		: Bitbucket/GitHub
+    Programming language	: C#
+    Code libraries		: .NET framework
+    Design tools		: Visual Studio
+    Hosting			: localhost
+    Testing framework	: Web browsers 
+
+### Cost of Learning:  
 <div>
 <table style="border-collapse: collapse; min-width: 100%;">
   <colgroup>
