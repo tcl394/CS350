@@ -60,28 +60,90 @@
 <tr>
     <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
     <div>PHP</div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;"><div><br/></div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;"><div><br/></div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;"><div><br/></div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;"><div><br/></div></td>
+    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+      <div>
+        * Market share on March 2017: 57%
+        The world most used and popular language on the Internet with millions of dedicated PHP web apps development companies.Developed         great websites
+        <br/>
+      </div></td>
+    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+      <div>
+       - Extremely scalable languages
+       - Number of online support groups.
+       - Unable to predict PHP in the future because even though it ruled the market when there was no easier alternative. 
+        For example: one major problem of PHP is hosting websites. Regular shared web hosting services can host PHP out of the box but if using other languages, it is a must to buy dedicated server hosting – installing their own web server in business privately held server.
+        <br/>
+      </div></td>
+    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+      <div>
+       - MailChimp, Facebook are written in PHP
+       - Very large pool of developers that support its sources.
+       - Many forums receive post regularly
+        <br/>
+      </div></td>
+    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+      <div>
+       - Free open source platform
+       - Easy to find tutorials and quite understandable languages.
+        <br/>
+      </div></td>
 </tr>
 
 <tr>
     <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
     <div>C#</div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;"><div><br/></div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;"><div><br/></div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;"><div><br/></div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;"><div><br/></div></td>
+    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+      <div>
+        - sibling of Visual Basic.NET. Stay in the top second 3 after Java, C, C++, rapidly growing fast.
+        - General purpose object-oriented programming language. 
+        - Run on .NET framework. 
+        - Seem easy to understand more than JAVA.
+        <br/>
+      </div></td>
+    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+      <div>
+        - can be written in any editor
+        - open source now
+        - compatible with Windows, Mac, and Linux OS.
+        - Can be used to build pretty any apps. 
+        - Supports all IDEs
+        - Much more improvements.
+        - It’s still evolving 
+        <br/>
+      </div></td>
+    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+      <div>
+        - quite several communities, forums, especially getting support from Microsoft community.
+        <br/>
+      </div></td>
+    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+      <div>
+        - more clean, easier to understand than other languages. Very useful to build app or website. 
+        <br/>
+      </div></td>
 </tr>
 
 <tr>
     <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
-    <div><br/></div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;"><div><br/></div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;"><div><br/></div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;"><div><br/></div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;"><div><br/></div></td>
+      <div>
+        <br/>
+      </div></td>
+    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+      <div>
+        <br/>
+      </div></td>
+    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+      <div>
+        <br/>
+      </div></td>
+    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+      <div>
+        <br/>
+      </div></td>
+    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+      <div>
+        <br/>
+      </div></td>
 </tr>
 
 
