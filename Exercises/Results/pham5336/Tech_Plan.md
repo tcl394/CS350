@@ -155,6 +155,10 @@
 </table>
 <div>
   
+<p align="center">
+  <img src="images/Programming-Languages-for-2016_graph.jpg" width=80%/>
+</p>  
+
 ### Tools to Use:
     IDE			: ASP.NET
     Version control		: Bitbucket/GitHub
