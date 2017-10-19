@@ -5,29 +5,30 @@ The purpose of this exercise is to demonstrate the use of git to allow multiple 
 To complete this exercise you must add your name to the list below.
 
 Students
-* seam1870
-* Kell6808
-* Deka3914
+
 * adam5491
+* alm3495
+* amin3534
+* arch1401
+* bele3926
+* bran5689
 * burk0683
 * carl6730 
-* Jone2032
-* sack5898
-* arch1401
+* carv4345
+* Deka3914
 * dixo7800
-* orte7266
-* amin3534
+* guzm3915
+* jeon6159 
+* Jone2032
+* Kell6808
+* mart6384
 * Mier2034
+* munn9422
+* newb3839
+* orte7266
 * pham5336
 * quin9856
+* sack5898
+* seam1870
 * toll8030
-* bele3926
-* jeon6159 
-* carv4345
-* bran5689
-* mart6384
 * will2055
-* newb3839
-* alm3495
-* guzm3915
-* munn9422
