@@ -15,7 +15,7 @@ Using HTML
 <img src="Git.png" />
 
 Using Markdown
-![Application Archtecture](Arch.png)
+![Application Archtecture](AppArch.png)
 
 ## Hyperlink
 
