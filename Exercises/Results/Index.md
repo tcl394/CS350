@@ -6,6 +6,8 @@ This Git Repo is a public repository that contains a record of the class.
 
 Please do not post any private information here.
 
+[Results/](./)
+
 * adam5491
 * alm3495
 * amin3534
