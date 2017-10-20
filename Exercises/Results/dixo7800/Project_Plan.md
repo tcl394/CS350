@@ -1,7 +1,7 @@
 Shawn Dixon
-CS 350
-10-7-17
-Dr. Seaman
+   CS 350  
+   10-7-17  
+   Dr. Seaman  
 
 Uncle Ed Software – Project Planning
 
