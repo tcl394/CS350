@@ -32,7 +32,7 @@
   <div><br/></div>
   <div>
     <hr/><br/></div>
-  <div><span style="font-weight: bold;">Uncle Ed Software - Project</span><span style="font-weight: bold; line-height: 1.45;"> Planning Template</span></div>
+  <div><span style="font-weight: bold;">Uncle Ed Software - Project</span><span style="font-weight: bold; line-height: 1.45;">Planning Template</span></div>
   <div><br/></div>
   <div>
     <hr/>
@@ -99,7 +99,7 @@
           their wall. </li>
         <li>A user is able to comment on their status update which can also consist of multimedia
           content. </li>
-        <li>A user is able to share other user’s status updates to their own wall. </li>
+        <li>A user is able to share other user's status updates to their own wall. </li>
         <li>The wall shows a chronological feed of past status updates which can be commented on
           or viewed just like within the wall </li>
       </ul>
