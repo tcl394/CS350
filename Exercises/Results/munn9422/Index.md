@@ -1,6 +1,6 @@
 # List of Excercises
 
-* [Project Plan](Project_Plan.html)
+* [Project Plan](Project_Plan.md)
 
 * Tech Plan
 
