@@ -172,71 +172,71 @@
 <div>
 <table style="border-collapse: collapse; min-width: 100%;">
   <colgroup>
-      <col style="width: 130px;"></col>
-      <col style="width: 130px;"></col>
-      <col style="width: 130px;"></col>
-      <col style="width: 130px;"></col>
-      <col style="width: 130px;"></col>
-      <col style="width: 130px;"></col>
-      <col style="width: 130px;"></col>
-      <col style="width: 130px;"></col>
+      <col style="width: auto;"></col>
+      <col style="width: auto;"></col>
+      <col style="width: auto;"></col>
+      <col style="width: auto;"></col>
+      <col style="width: auto;"></col>
+      <col style="width: auto;"></col>
+      <col style="width: auto;"></col>
+      <col style="width: auto;"></col>
    </colgroup>
   
   <tbody>
   <tr>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+    <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
     <div></div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+    <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
       <div><b>ASP.NET</b></div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+    <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
       <div><b>Bitbucket/ GitHub</b></div></td>
-   <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+   <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
       <div><b>C#</b></div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+    <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
       <div><b>.NET framework</b></div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+    <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
       <div><b>Visual Studio</b></div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+    <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
       <div><b>Localhost</b></div></td>
-    <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+    <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
       <div><b>Web browsers</b></div></td>
   </tr>
   
   <tr>
-  <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+  <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
     <div><b>Hours</b></div></td>
-  <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+  <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
     <div>< 100</div></td>
-  <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+  <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
     <div>>= 100</div></td>
-  <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+  <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
     <div>>= 100</div></td>
-  <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+  <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
     <div>< 100</div></td>
-  <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+  <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
     <div>>= 100</div></td>
-  <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+  <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
     <div>< 100</div></td>
-  <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+  <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
     <div>>= 100</div></td>
   </tr>
   
   <tr>
-  <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+  <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
     <div><b>Tools Cost (Hours)</b></div></td>
-  <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+  <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
     <div>+20</div></td>
-  <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+  <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
     <div>-</div></td>
-  <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+  <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
     <div>-</div></td>
-  <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+  <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
     <div>+20</div></td>
-  <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+  <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
     <div>-</div></td>
-  <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+  <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
     <div>+20</div></td>
-  <td style="border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;">
+  <td style="border: 1px solid rgb(219, 219, 219); width: auto; padding: 8px;">
     <div>-</div></td>
   </tr>
   
