@@ -2,15 +2,18 @@
 
 Exercises for this class
 
+
 ## Planning Exercises
 
-* [Project Plan](Project_Plan_Exercise.md)
-* [Technology Plan](Tech_Plan_Exercise.md)
-* [Design Plan](Design_Plan_Exercise.md)
+* [Project Plan](Project_Plan_Exercise.md) due 10/11
+* [Technology Plan](Tech_Plan_Exercise.md) due 10/18
+* [Design Plan](Design_Plan_Exercise.md) due 10/23
+
 
 ## Version Control Exercises
 
-* [Personal Git](Personal_Git.md)
-* [Shared Github Account](Shared_Git.md)
-* [Student_Results_Exercise](Student_Results_Exercise.md)
+* [Personal Git](Personal_Git.md) due 10/13
+* [Shared Github Account](Shared_Git.md) due 10/16
+* [Student Results Exercise](Student_Results_Exercise.md) due 10/18
+* [Markdown Documents Exercise](Markdown_Exercise.md) due 10/20
 
