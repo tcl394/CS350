@@ -6,9 +6,9 @@
 Uncle Ed Software – Project Planning
 
 ### Constraints
-	1. Time – April 1, 2018
-	2. Function – Facebook lite
-	3. Money -- $10K * 6 months * 5 people = $300K
+1. Time – April 1, 2018
+2. Function – Facebook lite
+3. Money -- $10K * 6 months * 5 people = $300K
 
 ### Features
 * Profile
