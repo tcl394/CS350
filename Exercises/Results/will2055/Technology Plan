@@ -1,0 +1,98 @@
+  <h1>Brandon Williams 
+  CS 350 <br>
+  Technology Plan<br></h1>
+ 
+           Popularity   |                    Future                   |   Community   |    Expertise
+Arduino|Largely Popular | Growing with Robotics and IoT applications
+Open Source and a main stay on almost all electronic forums and hobbyist sites
+Beginner Level with little barrier to entry
+Raspberry Pi
+Largely Popular
+Small but growing with Robotics and rapidly growing with IoT applications
+Open Source Linux Operating System and is a large component of electronic forums and hobbyist sites
+Medium Level with little barrier to entry (basic understanding of Linux is needed)
+Android
+Very Highly Popular
+Future growth looks strong with an estimated 84% market share
+Slightly Open Source where developers can use the Android Development Kit to write applications largely based on Java
+Medium to Moderately High level with low barrier to entries (ADK and IDE are free to download)
+Social Networking Application Tools
+• IDE – Geany
+• Version Control – Github
+• Programming Language – HTML, CSS, Javascript, PHP
+• Code Libraries – Bootstrap, Apache, PHP
+• Design Tools – Giffly, Inkscape
+• Hosting – SMTP, HTTP, MySQL
+• Testing Framework – Apache-Test, Unit.js
+ *This project is largely out of my scope of expertise. I'm really reaching hard to understand any of the tools needed for this kind of application. I did my best interpretation of what would be needed for this kind of application with what I could find.
+Cost of Learning
+Brandon Williams CS 350 Technology Plan
+ 
+Tool
+Estimated Prior Exposure (Hours)
+Experience Deficit Cost
+Net Cost*
+Geany
+100+
+--
+20
+Github
+25
+16
+36
+HTML
+50
+16
+36
+CSS
+50
+16
+36
+Javascript
+0
+16
+36
+PHP
+5
+16
+36
+Bootstrap
+0
+16
+36
+Apache
+5
+16
+36
+Giffly
+0
+16
+36
+Inkscape
+100+
+--
+20
+SMTP
+0
+16
+36
+HTTP
+0
+16
+36
+MySQL
+0
+16
+36
+Apache-Test
+0
+16
+36
+Unit.js
+0
+16
+36
+Total Cost:
+508
+*Net Cost = Sum(Tool #n*20)+(Deficit Cost [16] if applicable)
+I have completed this assignment to the best of my ability. I know so little about tools needed for this kind of application development that I wouldn't have bid to contract it in the first place. This is a small disclaimer if I'm completely wrong about the functions of a few tools. I researched as well as I could and derived my applications of each tool as best as I could.
