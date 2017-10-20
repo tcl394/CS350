@@ -38,7 +38,7 @@ Uncle Ed Software – Project Planning
 	
 ### User Stories
 * Profile
-   The user should be able to create a new profile. During the profile creation the user should be able to enter their username, password, email address, and optionally their age. Then the user should have the ability to sign-in to their profile, as well as sign-out of their profile. Then if a user no longer enjoys the application, the user should be able to delete their profile.  
+   The user should be able to create a new profile. During the profile creation the user should be able to enter their username, password, email address, and optionally their age. Then the user should have the ability to sign-in to their profile, as well as sign-out of their profile. Then if a user no longer enjoys the application, the user should be able to delete their profile.   
 * Pages
 A user should be able to create a new page with content that they enjoy. A page should include text of the content and a user can have a picture associated with the page if the creator wants one. The user should be able to display the page to other users who enjoy similar content. The page owner should be able to see how many followers the page has to determine if they want to keep adding content to the page.
 
