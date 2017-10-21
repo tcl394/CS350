@@ -4,4 +4,4 @@
 
 * [Tech Plan](Tech_Plan.md)
 
-* Design Plan
+* [Design Plan](Design_Plan.md)
