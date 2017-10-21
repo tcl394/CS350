@@ -1,18 +1,18 @@
-## Jonathan Mier
+# Jonathan Mier
 
 Mark Seamen CS350 
 
-Project Plan
+## Project Plan
 
-User registration
+### User registration
 
-  •	Sign up page
+  *	Sign up page
   
-  •	Login page
+  *	Login page
   
-  •	Login functionality 
+  *	Login functionality 
   
-  •	Logout functionality 
+  * Logout functionality 
 
 User story: A user visits the Facebook lite page. If they are a new user, they will be directed to the signup page. The user will then fill out a login form with some personal information. After the user is registered he or she will be able to login via the login page. When the user is done using the site, he or she should be able log out and terminate their session. 
 
