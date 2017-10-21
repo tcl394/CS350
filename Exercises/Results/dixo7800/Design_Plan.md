@@ -13,42 +13,42 @@ Design Plan
 * Standard Web Browser
 ## Web Server Interface
 * Profile
-*  Sign-up (username, email, password)
-*  Login (username, password)
+   *  Sign-up (username, email, password)
+   *  Login (username, password)
 * Page_Creator
-*  Add_Page (username, title, body)
-*  Edit_Page (username, title, body)
-*  Delete_Page (username, title, body)
+   *  Add_Page (username, title, body)
+   *  Edit_Page (username, title, body)
+   *  Delete_Page (username, title, body)
 * Follower
-*  Get_Page (title)
-*  Follow_Page (title, username)
+   *  Get_Page (title)
+   *  Follow_Page (title, username)
 ## Application Server Interface
 * User – CRUD – create, read, update, delete
 * Page – CRUD – create, read, update, delete
 * Follower – CRUD – create, read, update, delete
 ## Database Schema
 * User
-*  Username, email, password, first_name, last_name
+   *  Username, email, password, first_name, last_name
 * Page
-*  User, title, body
+   *  User, title, body
 * Follower
-*  Username, email, page
+   *  Username, email, page
 # Data
 ## Project Data
 *  User
-*  Username, email, password, first_name, last_name
+   *  Username, email, password, first_name, last_name
 * Page
-*  User, title, body
+   *  User, title, body
 * Follower
-*  Username, email, page
+   *  Username, email, page
 
 ## Project Classes
 * User
-*  Username, email, password, first_name, last_name
+   *  Username, email, password, first_name, last_name
 * Page
-*  User, title, body
+   *  User, title, body
 * Follower
-*  Username, email, page
+   *  Username, email, page
 
 ## Project Functions for Data
 * Pages
