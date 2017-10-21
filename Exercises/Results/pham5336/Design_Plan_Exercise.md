@@ -1,63 +1,59 @@
 
 ## Design Plan
   
-Facebook Life System
-Architecture
-•	Computer Client 	: Web Browsers (Chrome, Mozilla Firefox, Internet Explorer (Microsoft 
-			Edges), Safari, etc.) 
-•	Web Server		: Http, Https, URLs to web pages
-•	Email Server		: SMTP
-•	Application Server	: Functions interfaces
-•	Database		: Create – Read – Update – Delete for Users, Moderators, Posts
+### Facebook Life System
+### Architecture
+	•	Computer Client 	: Web Browsers (Chrome, Mozilla Firefox, Internet Explorer (Microsoft 
+					  Edges), Safari, etc.) 
+	•	Web Server		: Http, Https, URLs to web pages
+	•	Email Server		: SMTP
+	•	Application Server	: Functions interfaces
+	•	Database		: Create – Read – Update – Delete for Users, Moderators, Posts
 
-Interfaces
-•	Web Server:
--	Login
-	sign_up (userID, username, email, password)
-	login (userID, username, password)
-	forgot_password (userID, username/email, secret questions)
+### Interfaces
+#### Web Server:
+	Login
+		* sign_up (userID, username, email, password)
+		* login (userID, username, password)
+		* forgot_password (userID, username/email, secret questions)
 
--	Users
-	create_post (username, post_id, title, text_area)
-	edit_post (username, post_id, title, text_area)
-	delete_post (username, post_id, title)
-	share_post (username, post_id, title)
-	read_post (username, title, text_area)
+	Users
+		* create_post (username, post_id, title, text_area)
+		* edit_post (username, post_id, title, text_area)
+		* delete_post (username, post_id, title)
+		* share_post (username, post_id, title)
+		* read_post (username, title, text_area)
 
--	Moderators
-	create_post (moderator, post_id, title, text_area)
-	edit_post (moderator, post_id, title)
-	read_post (username, title, text_area)
-	delete_post (moderator, post_id, title)
-	alter_user_account (moderator, username)
+	Moderators
+		* create_post (moderator, post_id, title, text_area)
+		* edit_post (moderator, post_id, title)
+		* read_post (username, title, text_area)
+		* delete_post (moderator, post_id, title)
+		* alter_user_account (moderator, username)
 
--	New Feed
-	register (email)
-	verify_account (token)
-	deactivate_account (email, status)
+	New Feed
+		* register (email)
+		* verify_account (token)
+		* deactivate_account (email, status)
 
+#### Application Server:
+	Users
+		* Create – Read – Update – Share – Delete 
+	Moderators
+		* Create – Read – Update – Share – Delete
+		* Alter_user_account
+	Posts
+		* Create – Read – Update – Share – Delete 
 
-•	Application Server:
--	Users
-	Create – Read – Update – Share – Delete 
--	Moderators
-	Create – Read – Update – Share – Delete
-	Alter_user_account
--	Posts
-	Create – Read – Update – Share – Delete 
+#### Database Schema:
+	Users
+		* userID, username, email, password, secret_questions
+	Moderators
+		* moderatorsID, username, email, password, secret_questions
+	Posts
+		* post_id, title, date, text, username
 
-•	Database Schema:
--	Users
-	userID, username, email, password, secret_questions
--	Moderators
-	moderatorsID, username, email, password, secret_questions
--	Posts
-	post_id, title, date, text, username
-
-
-
-
-•	Functions:
+#### Functions:
 -	Users
 	user_register (userID, username, email, password, secret_questions)
 	user_login (userID, username, password)
@@ -77,14 +73,16 @@ Interfaces
 	update_post (userID, title, text_area)
 	delete_post (userID, moderatorID)
 	list_post (userID, moderatorID)
-Data
+
+### Data
 •	User
 o	userID, username, email, password, secret_question
 •	Moderator
 o	moderatorID, username, email, password, secret_question
 •	Post
 o	postID, userID, username, title, text_area
-Functions for Data
+
+#### Functions for Data
 •	User, Moderator
 o	Def register
 	 OleDbConnection conn = new OleDbConnection();
