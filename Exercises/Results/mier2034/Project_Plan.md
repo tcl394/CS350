@@ -1,4 +1,5 @@
-Jonathan Mier
+##Jonathan Mier
+
 Mark Seamen CS350 
 
 Project Plan
