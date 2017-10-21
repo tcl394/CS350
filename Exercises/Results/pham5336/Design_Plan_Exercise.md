@@ -54,65 +54,65 @@
 		* post_id, title, date, text, username
 
 #### Functions:
--	Users
-	user_register (userID, username, email, password, secret_questions)
-	user_login (userID, username, password)
-	user_list ()
-	update_user (email, password, secret_questions)
-	user_forgot_username (email_secret_questions)
-	user_forgot_password (email, secret_questions)
-	deactivate_user (userID, username, password, secret_questions)
+	Users
+		* user_register (userID, username, email, password, secret_questions)
+		* user_login (userID, username, password)
+		* user_list ()
+		* update_user (email, password, secret_questions)
+		* user_forgot_username (email_secret_questions)
+		* user_forgot_password (email, secret_questions)
+		* deactivate_user (userID, username, password, secret_questions)
 
--	Moderators
-	create_user (moderatorID, username, email, temp_password)
-	update_user_account (userID)
-	delete_user_account (userID)
--	Posts
-	create_post (userID, title, text_area)
-	read_post (userID, title, text_area)
-	update_post (userID, title, text_area)
-	delete_post (userID, moderatorID)
-	list_post (userID, moderatorID)
+	Moderators
+		* create_user (moderatorID, username, email, temp_password)
+		* update_user_account (userID)
+		* delete_user_account (userID)
+			Posts
+		* create_post (userID, title, text_area)
+		* read_post (userID, title, text_area)
+		* update_post (userID, title, text_area)
+		* delete_post (userID, moderatorID)
+		* list_post (userID, moderatorID)
 
 ### Data
-•	User
-o	userID, username, email, password, secret_question
-•	Moderator
-o	moderatorID, username, email, password, secret_question
-•	Post
-o	postID, userID, username, title, text_area
+	User
+		* userID, username, email, password, secret_question
+	Moderator
+		* moderatorID, username, email, password, secret_question
+	Post
+		* postID, userID, username, title, text_area
 
 #### Functions for Data
-•	User, Moderator
-o	Def register
-	 OleDbConnection conn = new OleDbConnection();
-	conn.ConnectionString = ConfigurationManager.ConnectionStrings["Connection"].ToString();
-	conn.Open();
-	OleDbCommand cmd = new OleDbCommand();
-	cmd.CommandText = "insert into [userTbl](column1, column2, column3, column)values(@name,@email,@password,@secret_question)";
-	cmd.Parameters.AddWithValue("@name", name.Text);
-	cmd.Parameters.AddWithValue("@email", email.Text);
-	cmd.Parameters.AddWithValue("@password", password.Text);
-	cmd.Parameters.AddWithValue("@secret_question", secret_question.Text);
-	cmd.Connection = conn;
-	cmd.ExecuteNonQuery();
-	conn.Close();
-o	Def update
-	cmd.CommandText = "UPDATE [userTbl] SET column1 = @name, column2  = @email, column3 = @password, column4 = @secret_question WHERE userID = userID";
-o	Def delete
-	cmd.CommandText = “DELETE FROM [userTbl] WHERE condition; 
-o	Def reset_password
-	cmd.CommandText = "UPDATE [userTbl] SET column3 = @newpassword , WHERE userID = userID";
-	
-•	Post
-o	Def create_post (userID, username, title, text_area)
-	Create post (userID, username, title, text_area)
-o	Def update_post (userID, title, text_area)
-	Update post (userID, postID, title, text_area)
-o	Def delete_post (userID, postID, title)
-	Delete post (userID, postID, title)
-o	Def share_post (userID, postID, username, title)
-	Share post (userID, postID, title)
-o	Def list_post (userID, postID, username, title)
-	List post (userID, postID, username, title)
+	User, Moderator
+		- Def register
+			* OleDbConnection conn = new OleDbConnection();
+			* conn.ConnectionString = ConfigurationManager.ConnectionStrings["Connection"].ToString();
+			* conn.Open();
+			* OleDbCommand cmd = new OleDbCommand();
+			* cmd.CommandText = "insert into [userTbl](column1, column2, column3, column4) values (@name,@email,@password,@secret_question)";
+			* cmd.Parameters.AddWithValue("@name", name.Text);
+			* cmd.Parameters.AddWithValue("@email", email.Text);
+			* cmd.Parameters.AddWithValue("@password", password.Text);
+			* cmd.Parameters.AddWithValue("@secret_question", secret_question.Text);
+			* cmd.Connection = conn;
+			* cmd.ExecuteNonQuery();
+			* conn.Close();
+		- Def update
+			* cmd.CommandText = "UPDATE [userTbl] SET column1 = @name, column2  = @email, column3 = @password, column4 = @secret_question WHERE userID = userID";D
+		- Def delete
+			* cmd.CommandText = “DELETE FROM [userTbl] WHERE condition; 
+		- Def reset_password
+			* cmd.CommandText = "UPDATE [userTbl] SET column3 = @newpassword , WHERE userID = userID";
+	
+		- Post
+			Def create_post (userID, username, title, text_area)
+				Create post (userID, username, title, text_area)
+			Def update_post (userID, title, text_area)
+				Update post (userID, postID, title, text_area)
+			Def delete_post (userID, postID, title)
+				Delete post (userID, postID, title)
+			Def share_post (userID, postID, username, title)
+				Share post (userID, postID, title)
+			Def list_post (userID, postID, username, title)
+				List post (userID, postID, username, title)
 
