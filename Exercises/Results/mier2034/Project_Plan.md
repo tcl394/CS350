@@ -1,4 +1,4 @@
-# Jonathan Mier Project Plan
+# Project Plan
 
 ### User registration
 
