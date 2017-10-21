@@ -1,5 +1,5 @@
 
 # List of Exercises
-  - [Project Plan](Project_Plan.md)
-  - [Tech plan](Tech_Plan.md)
-  - [Design Plan](Design_Plan.md)
+  - [Project Plan](Project_Plan_Exercise.md)
+  - [Tech plan](Tech_Plan_Exercise.md)
+  - [Design Plan](Design_Plan_Exercise.md)
