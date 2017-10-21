@@ -103,8 +103,7 @@
 			* cmd.CommandText = “DELETE FROM [userTbl] WHERE condition; 
 		- Def reset_password
 			* cmd.CommandText = "UPDATE [userTbl] SET column3 = @newpassword , WHERE userID = userID";
-	
-		- Post
+	Post
 			Def create_post (userID, username, title, text_area)
 				Create post (userID, username, title, text_area)
 			Def update_post (userID, title, text_area)
