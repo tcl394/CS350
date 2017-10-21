@@ -52,12 +52,12 @@ Design Plan
 
 ## Project Functions for Data
 * Pages
-Public static createPage (username, title){
-}
-Public static editPage (username, title, body){
-}
-Public static deletePage (username, title){
-}
-Public static getPage (title){
-}
+   Public static createPage (username, title){  
+   }  
+   Public static editPage (username, title, body){  
+   }  
+   Public static deletePage (username, title){  
+   }  
+   Public static getPage (title){  
+   }  
 
