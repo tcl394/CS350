@@ -59,3 +59,17 @@ Pass the tests while writing the smallest amount of code.
 * JSON Files - file_json.py
 * CSV Files  - file_csv.py
 
+
+## Commit your code
+
+You should have the following files in your Results directory
+
+* tools.py
+* file_text.py
+* file_json.py
+* file_csv.py
+
+Point your browser to the github account.
+
+Go to the correct directory and Upload File.  Drag your files into the directory and commit them to Git Repo.
+
