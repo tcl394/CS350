@@ -104,14 +104,14 @@
 		- Def reset_password
 			* cmd.CommandText = "UPDATE [userTbl] SET column3 = @newpassword , WHERE userID = userID";
 	Post
-			Def create_post (userID, username, title, text_area)
-				Create post (userID, username, title, text_area)
-			Def update_post (userID, title, text_area)
-				Update post (userID, postID, title, text_area)
-			Def delete_post (userID, postID, title)
-				Delete post (userID, postID, title)
-			Def share_post (userID, postID, username, title)
-				Share post (userID, postID, title)
-			Def list_post (userID, postID, username, title)
-				List post (userID, postID, username, title)
+		- Def create_post (userID, username, title, text_area)
+			Create post (userID, username, title, text_area)
+		- Def update_post (userID, title, text_area)
+			Update post (userID, postID, title, text_area)
+		- Def delete_post (userID, postID, title)
+			Delete post (userID, postID, title)
+		- Def share_post (userID, postID, username, title)
+			Share post (userID, postID, title)
+		- Def list_post (userID, postID, username, title)
+			List post (userID, postID, username, title)
 
