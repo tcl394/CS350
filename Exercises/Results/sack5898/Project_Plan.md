@@ -1,4 +1,4 @@
-# Social Network Project Proposal
+# Project Plan
 
 ## Purpose
 
