@@ -18,11 +18,11 @@ these frameworks are equally popular
 Select the Tools that you will use for the Social Networking application.
 
 * IDE - Eclipse
-* Version Control - Git and Github
-* Programming language - Java
+* Version Control - Git and Github (20 hours)
+* Programming language - Java 0
 * Code Libraries - none
 * Design Tools - none
-* Hosting - Amazon Web Services
+* Hosting - Amazon Web Services (20 hours)
 * Testing Framework - none
 
 ## Cost of Learning
@@ -38,3 +38,6 @@ Total the number of hours you will need to learn the tools.
 Maximum tools cost = 7 tools * 20 hrs/tool = 140 hours
 
 This is the startup cost that must be paid before you can produce value for the project.
+
+Answer: About 40 hours. 
+
