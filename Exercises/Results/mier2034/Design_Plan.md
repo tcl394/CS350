@@ -26,23 +26,23 @@
 
 
 ### Web Server Interface (Functions)
-*User
-	*create_user (name, email, password)
-	*read_user (name, password) --> user_id
-	*list_user () --> user list
-o	*update_user (name, email, password)
-o	delete_user (user_id)
-•	Post
-o	create_post (post_id, post)
-o	read_post (post_id)
-o	comment_post (post_id, user_id, comment)
-o	list_post (user_id)	
-o	update_post (user_id, post)
-o	delete_post (user_id)
-•	Friendship
-o	follow_user (user_id)
-o	unfollow_user (user_id)
-Application Server Interface:
+* User
+	* create_user (name, email, password)
+	* read_user (name, password) --> user_id
+	* list_user () --> user list
+	* update_user (name, email, password)
+	* delete_user (user_id)
+* Post
+	* create_post (post_id, post)
+	* read_post (post_id)
+	* comment_post (post_id, user_id, comment)
+	* list_post (user_id)	
+	* update_post (user_id, post)
+	* delete_post (user_id)
+* Friendship
+	* follow_user (user_id)
+	* unfollow_user (user_id)
+### Application Server Interface:
 * User
 	* CRUD - create, read, update, delete
 * Post
