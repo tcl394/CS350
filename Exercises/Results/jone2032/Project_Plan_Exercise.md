@@ -1,11 +1,14 @@
 Nik Jones
+
 CS 350
+
 # Project plan exercise
 Goal:
 
 Understand how to do lightweight project planning
 
 Grading
+
 •	Grade will be based on the probability that your plan will be accepted
 •	Not about length, but quality of thought (simple is better than complex)
 
