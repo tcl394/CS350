@@ -6,22 +6,24 @@ Select 3 Most Important Frameworks
 
 Research them and list the vital issues with each
 
-* java
-* python
-* .net
+* java - 300 hours - mid-competence
+* python - 150 hours - early competence
+* .net - 0 hours - novice
+
+these frameworks are equally popular
 
 
 ## Tools to Use
 
 Select the Tools that you will use for the Social Networking application.
 
-* IDE
-* Version Control
-* Programming language
-* Code Libraries 
-* Design Tools
-* Hosting
-* Testing Framework
+* IDE - Eclipse
+* Version Control - Git and Github
+* Programming language - Java
+* Code Libraries - none
+* Design Tools - none
+* Hosting - Amazon Web Services
+* Testing Framework - none
 
 ## Cost of Learning
 
