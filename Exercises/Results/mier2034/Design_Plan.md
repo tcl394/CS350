@@ -20,8 +20,8 @@
 	* get_posts (user)
 	* comment_post (user, post, comment)
 * Friendship
-	*follow_user(user)
-	*unfollow_user(user)
+	* follow_user(user)
+	* unfollow_user(user)
 
 
 
