@@ -50,7 +50,7 @@
 * Friendship
 	* CRUD - create, read, update, delete
 
-Database Schema
+### Database Schema
 * User
 	* name, email, password
 * Post
