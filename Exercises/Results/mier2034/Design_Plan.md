@@ -15,7 +15,7 @@
 	* add_post (user, post)
 	* edit_post (user, post)
 	* delete_post (user, post) 
-* comment_post(user, post, comment)
+	* comment_post(user, post, comment)
 * Newsfeed
 	* get_posts (user)
 	* comment_post (user, post, comment)
@@ -26,11 +26,11 @@
 
 
 ### Web Server Interface (Functions)
-*	User
-o	create_user (name, email, password)
-o	read_user (name, password) --> user_id
-o	list_user () --> user list
-o	update_user (name, email, password)
+*User
+	*create_user (name, email, password)
+	*read_user (name, password) --> user_id
+	*list_user () --> user list
+o	*update_user (name, email, password)
 o	delete_user (user_id)
 •	Post
 o	create_post (post_id, post)
