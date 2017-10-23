@@ -60,21 +60,22 @@ Database Schema
 * Friendship
 	* user, user
 
-Data:
-Facebook Clone Data
-•	User
-o	name, email, password
-•	Post
-o	User, post, comments
-•	Friendship
-o	User, User
-Facebook Clone Classes
-•	User
-o	name, email, password
-•	Post
-o	User, post, comments
-•	Friendship
-o	User, User
+## Data:
+### Facebook Clone Data
+* User
+	* name, email, password
+	* Post
+	* User, post, comments
+* Friendship
+	* User, User
+	
+### Facebook Clone Classes
+* User
+	* name, email, password
+* Post
+	* User, post, comments
+* Friendship
+	* User, User
 
 
 
