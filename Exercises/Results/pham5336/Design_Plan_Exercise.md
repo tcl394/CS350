@@ -52,6 +52,10 @@
 		* moderatorsID, username, email, password, secret_questions
 	Posts
 		* post_id, title, date, text, username
+		
+<p align+'center'>
+<img src="images/designPlan.png"/>
+</p>
 
 #### Functions:
 	Users
@@ -67,7 +71,7 @@
 		* create_user (moderatorID, username, email, temp_password)
 		* update_user_account (userID)
 		* delete_user_account (userID)
-			Posts
+	Posts
 		* create_post (userID, title, text_area)
 		* read_post (userID, title, text_area)
 		* update_post (userID, title, text_area)
