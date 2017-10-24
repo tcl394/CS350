@@ -127,7 +127,7 @@ CatBook Data
 	* Profile, content, thumbs ups, comments
 	
 
-World Press Classes
+CatBook Classes
 
 
 * Profile
