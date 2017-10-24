@@ -1,21 +1,5 @@
 # Design Plan Exercise
 
-## Goal
-
-Create a simple design for your social networking application.  Collaborate with others but do not coast on their effort.  You must provide as many ideas as you consume.
-
-Use the World Press Design plan as a model for your plan for the Social Networking app.
-
-Define the follow levels:
-
-	* Architecture
-	* Interfaces
-	* Data
-
-
-Submit your results 
-
-
 ## Architecture
 
 Architecture - Top-level system design
@@ -47,39 +31,31 @@ Interfaces
 	* Define the signatures
 
 
-## World Press System
+## Catbook System
 
 Architecture
 
-
 	* Computer client - Web browser
 	* Web server - http, urls to web pages
-	* Email server - SMTP
 	* Application server - function interface
-	* Database - CRUD for User, Article, Subscriber
+	* Database - CRUD for Profile, and Posts
 
 
 Web Server Interface
 
-
 	* Login
 
-		* register (name, email, password)
-		* login (name, password)
-	* Author
+		* register (name, email, password, profile picture)
+		* login (email, password)
+	* Profile
+	
+		* add_post (profile, body/picture)
+		* delete_post (post)
+		* view_profile (profile)
 
-		* add_post (user, title, body)
-		* edit_post (user, title, body)
-		* delete_post (user, title)
-	* Reader
-
-		* get_post (title)
-		* list_posts (user)
-	* News
-
-		* register (email)
-		* verify_email (token)
-		* unsubscribe (email)
+	* Posts
+		* view_post (profile, post)
+		* comment_post (post)
 
 
 Application Server Interface
