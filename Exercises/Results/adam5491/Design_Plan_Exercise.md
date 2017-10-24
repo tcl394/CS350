@@ -61,13 +61,10 @@ Web Server Interface
 Application Server Interface
 
 
-	* User
+	* Profile
 
 		* CRUD - create, read, update, delete
-	* Article
-
-		* CRUD - create, read, update, delete
-	* Subscriber
+	* Post
 
 		* CRUD - create, read, update, delete
 
@@ -75,16 +72,12 @@ Application Server Interface
 Database Schema
 
 
-	* User
+	* Profile
 
-		* name, email, password
-	* Article
+		* name, email, password, picture
+	* Post
 
-		* user, title, body
-	* Subscriber
-
-		* email, user
-
+		* profile, content, thumbs ups, comments
 
 
 Interfaces - Detailed Design
@@ -96,49 +89,20 @@ Start with Architecture (High-level Design)
 	* Data and control flow - walk the call chain
 
 
-World Press Web Server Interface 
+CatBook Application Server Interface (Functions)
 
 
-* Login
+* Profile
 
-	* register (name, email, password)
-	* login (name, password)
-* Author
-
-	* add_post (user, title, body)
-	* edit_post (user, title, body)
-	* delete_post (user, title)
-* Reader
-
-	* get_post (title)
-	* list_posts (user)
-* News
-
-	* register (email)
-	* verify_email (token)
-	* unsubscribe (email)
-
-
-World Press Application Server Interface (Functions)
-
-
-* User
-
-	* create_user (name, email, password)
-	* read_user (name, password) --> user_id
-	* list_user () --> user list
+	* create_profile (name, email, password, picture)
 	* update_user (name, email, password)
-	* delete_user (user_id)
+	* delete_user (email, password)
 
+* Post
 
-
-* Article
-
-	* create_article (user_id, title, body)
-	* read_article (article_id)
-	* list_article (user_id)
-	* update_article (user_id, title, body)
-	* delete_article (user_id)
+	* create_post (profile, content)
+	* update_post (post)
+	* delete_post (post)
 
 
 
@@ -152,40 +116,34 @@ ORM
 	* All work is done in the object domain.
 
 
-World Press Data
+CatBook Data
 
 
-* User
+* Profile
 
 	* name, email, password
 * Post
 
-	* user, title, body
-* Subscriber
-
-	* email, user
-
+	* Profile, content, thumbs ups, comments
+	
 
 World Press Classes
 
 
-* User
+* Profile
 
-	* name, email, password
+	* name, email, password, picture
 * Post
 
-	* user, title, body
-* Subscriber
-
-	* email, user
+	* Profile, body
 
 
-World Press Functions for Data
+CatBook Functions for Data
 
-	  # Article
+	  # Post
 
-	  def create_article (user_id, title, body):
-	      Article.object.create (user_id, title, body)
+	  def create_post (user, content):
+	      Post.object.create (Profile, content)
 
 	  def list_article (user_id):
 	      return Article.objects.all()
