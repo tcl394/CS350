@@ -1,4 +1,4 @@
-# Academic Social Media Design Plan
+# Academic Social Network Design Plan
 
 ## Architecture
 
@@ -44,6 +44,7 @@ Database
    - friendList
 
 - Post
+   - postId
    - user
    - body
 
@@ -51,3 +52,22 @@ Database
    - moderatorId
    - username
    - password
+
+### Application Server Interface Functions
+
+- User
+   - create_user(userId, username, email, password, birthDate)
+   - get_user(username, password) or (email, password)
+   - obtain_feed(friendList)
+   - delete_user(user_id)
+   
+- Post
+   - save_post(userId, body)
+   - get_post(postId)
+   - list_posts(userId)
+   - overwrite_post(postId, body)
+   - delete_post(postId)
+   - flag_post(postId, userId)
+
+- Moderator
+   - get_moduser(username, password)
