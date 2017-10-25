@@ -2,7 +2,7 @@
 ## Facebook Lite System
 Web Server Interface
 *	Login
-  *	register (name, email, password)
+  **	register (name, email, password)
   *	login (name, password)
 *	User
   *	add_post (user, timestamp, text)
