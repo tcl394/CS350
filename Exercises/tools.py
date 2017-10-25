@@ -52,16 +52,17 @@ def test_tools():
 if __name__ == '__main__' :
     
     # Test editing using notepad
-    # edit_file('tools.py')
+    edit_file('tools.py')
     
     # Test github UNC-CS350 account
     # github()
     
     # Test browsing to web pages
-    google()
+  #  google()
     # unc()
     
     # Test the windows explorer
-    # explore('C:\\Users\\mark.seaman\\Documents\\GitHub\\CS350')
+     #explore('C:\\Users\\mark.seaman\\Documents\\GitHub\\CS350')
+    pass
     
 
