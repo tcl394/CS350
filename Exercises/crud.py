@@ -19,27 +19,29 @@ def test_author_crud():
 	# Tests to write for Author CRUD
 
 	# A CSV file exists
+	
 	from os.path import exists
-	assert(not exists('author.csv'))
+	assert(exists('author.csv'))
 
-	# * CSV file Author '?Bill, Bill@Here.com'
-	# * Add '?Sue' to Author table
+	# * CSV file Author 'Bill, Bill@Here.com'
+	# * Add 'Sue' to Author table
 	# * Add list of other names (10 people)
 	# * Read CSV records
 	# * Print Author email
 	# * Change email
 	# * Delete Author
 
+
 def test_article_crud():
 
-	# * CSV file Article '?Rattlesnakes, I hate snakes'
+	# * CSV file Article 'Rattlesnakes, I hate snakes'
 	# * Print Article list
-	# * Add Article '?Kittens, Kittens are Fuzzy'
+	# * Add Article 'Kittens, Kittens are Fuzzy'
 	# * Add author_id of 4 to Articles
 	# * Print Articles showing Author names
 	# * Select articles for Author 4
-	# * Lookup '?4, Kittens'
-	# * Change '?Kittens' body to '?Kittens are cute!'
+	# * Lookup '4, Kittens'
+	# * Change 'Kittens' body to 'Kittens are cute!'
 	# * Remove Article
 	# * Remove Author
 
