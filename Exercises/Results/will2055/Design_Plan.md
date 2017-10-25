@@ -72,7 +72,7 @@ Database Schema
 		* friends, date, body, search name
 
 
-
+-------------------------------------------
 Interfaces - Detailed Design
 
 
