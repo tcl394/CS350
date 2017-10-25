@@ -1,4 +1,4 @@
-## World Press System
+## Social Networking Application
 
 Architecture
 
@@ -7,8 +7,7 @@ Architecture
 	* Web server - http, urls to web pages
 	* Email server - SMTP
 	* Application server - function interface
-	* Database - CRUD for User, Article, Subscriber
-
+	* Database - CRUD for User, Post Authoring, Collective Network
 
 Web Server Interface
 
@@ -17,20 +16,26 @@ Web Server Interface
 
 		* register (name, email, password)
 		* login (name, password)
-	* Author
+		* add_bio(body)
+		* add_age(age)
+		* add_picture(profile_image)
+	* User Security
+		
+		* post_view_friend(f_authorize)
+		* post_view_global(g_authorize)
+		* post_view_self(n_authorize)
 
-		* add_post (user, title, body)
-		* edit_post (user, title, body)
-		* delete_post (user, title)
-	* Reader
+	* User Post Authoring
 
-		* get_post (title)
-		* list_posts (user)
-	* News
+		* add_post (user, body)
+		* edit_post (user, body)
+		* delete_post (user, date)
+	* Collective Network Wall
 
-		* register (email)
-		* verify_email (token)
-		* unsubscribe (email)
+		* get_friends (friends)
+		* get_friend_post (friends, date, body)
+		* search_friend (search_name)
+		* add_friend (search_name)
 
 
 Application Server Interface
@@ -39,10 +44,13 @@ Application Server Interface
 	* User
 
 		* CRUD - create, read, update, delete
-	* Article
+	* User Security
+		
+		*CRUD - create, read, update, delete
+	* User Post Authoring
 
 		* CRUD - create, read, update, delete
-	* Subscriber
+	* Collective Network Wall
 
 		* CRUD - create, read, update, delete
 
@@ -52,126 +60,102 @@ Database Schema
 
 	* User
 
-		* name, email, password
-	* Article
+		* name, email, password, biography, age, image, friends
+	* User Security
 
-		* user, title, body
-	* Subscriber
+		* friend viewable account, global viewable account, none viewable account
+	* User Post Authoring
+		
+		* name, date, body
+	* Collective Network Wall
 
-		* email, user
+		* friends, date, body, search name
 
 
 
 Interfaces - Detailed Design
 
-Start with Architecture (High-level Design)
 
-	* Subsystems - partitioning of components
-	* Interfaces - every subsystems has at least one interface
-	* Data and control flow - walk the call chain
-
-
-World Press Web Server Interface 
+Social Network Web Server Interface 
 
 
 * Login
 
 	* register (name, email, password)
 	* login (name, password)
-* Author
+	* biography (body)
+	* age (age)
+	* profile_picture(profile_image)
+* User Security
 
-	* add_post (user, title, body)
-	* edit_post (user, title, body)
+	* account_view_friend (f_authorize)
+	* account_view_global (g_authorize)
+	* account_view_self (n_authorize)
+* User Post Authoring
+
+	* add_post (user, body)
+	* edit_post (user, body)
 	* delete_post (user, title)
-* Reader
+* Collective Network Wall
 
-	* get_post (title)
-	* list_posts (user)
-* News
-
-	* register (email)
-	* verify_email (token)
-	* unsubscribe (email)
+	* friends (friends)
+	* friend_post (friends, date, body)
+	* search_friend (search_name)
+	* add_friend (search_name)
 
 
-World Press Application Server Interface (Functions)
+Social Network Application Server Interface (Functions)
 
 
 * User
 
-	* create_user (name, email, password)
-	* read_user (name, password) --> user_id
-	* list_user () --> user list
-	* update_user (name, email, password)
+	* create_user (name, email, password, age)
+	* update_user (name, email, password, age)
+	* read_user (name, password)
 	* delete_user (user_id)
+	* add_biography (body)
+	* edit_biography (body)
+	* delete_biogrpahy (body)
+	* edit_age (age)
+	* add_profile_picture (profile picture)
+	* edit_profile_picture (profile picture)
+	* delete_profile_picture (profile picture)
+	
+* User Security
+	
+	* account_view_friend (f_authorize)
+	* account_view_global (g_authorize)
+	* account_view_self (n_authorize)
+	
+* User Post Authoring
+	
+	* add_post (user, body, date)
+	* edit_post (user, body, date)
+	* delete_post (user, date)
 
+* Collective Network Wall
 
-
-* Article
-
-	* create_article (user_id, title, body)
-	* read_article (article_id)
-	* list_article (user_id)
-	* update_article (user_id, title, body)
-	* delete_article (user_id)
+	* get_friends (friends)
+	* get_friend_post (friends, date, body)
+	* search_friend (search_name)
+	* add_friend (search_name)
 
 
 
 Data
 
-ORM
-
-
-	* Define your database structures by specifying classes.  
-	* Automatically generate SQL to match the objects.
-	* All work is done in the object domain.
-
-
-World Press Data
+Social Network Data
 
 
 * User
 
-	* name, email, password
-* Post
+	* name, email, password, age, biography, picture
+* User Security
 
-	* user, title, body
-* Subscriber
+	* f_authorize, g_authorize, n_authorize --> boolean conditions
+* User Post
 
-	* email, user
+	* user, body, date
+* Collective Network Wall
 
-
-World Press Classes
-
-
-* User
-
-	* name, email, password
-* Post
-
-	* user, title, body
-* Subscriber
-
-	* email, user
-
-
-World Press Functions for Data
-
-	  # Article
-
-	  def create_article (user_id, title, body):
-	      Article.object.create (user_id, title, body)
-
-	  def list_article (user_id):
-	      return Article.objects.all()
-
-	  def read_article (article_id):
-	      return Article.objects.get(pk=article_id)
-
-	  def update_article (user_id, title, body):
-	      a = Article.objects.get (user_id=user_id, title=title)
-	      a.body = body
-	      a.save()
-
-	  def delete_article (user_id, title):
-	      Article.objects.delete(user_id=user_id, title=title)
+	* friends, date, body, search_name
