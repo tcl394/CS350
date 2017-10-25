@@ -89,7 +89,7 @@ user, title, body
 	Subscriber
 	email, user
 Old Folks Facebook Functions for Data
-# Article
+Article
 def create article (user id, title, body)
          Article.object,create (user_id, title, body)
 def list_article (user_id)
