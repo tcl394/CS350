@@ -6,7 +6,7 @@ import webbrowser
 
 def edit_file(filename):
     print('Edit')
-    system('"C:\\Program Files\\Sublime Text\\sublime_text.exe" '+filename)
+    system('"C:/Program Files/Sublime Text/subl.exe" '+filename)
     
 def browse(page):
     print('Browse '+page)
