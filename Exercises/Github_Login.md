@@ -1,4 +1,4 @@
-# Github Exercise
+# Github Login Exercise
 
 ## Goal
 
