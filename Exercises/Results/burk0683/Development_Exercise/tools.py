@@ -6,7 +6,7 @@ import webbrowser
 
 def edit_file(filename):
     print('Edit')
-    system('"C:\\Program Files\\Sublime Text\\sublime_text.exe" '+filename)
+    system('"C:\\Program Files (x86)\\Notepad++\\notepad++.exe" '+filename)
     
 def browse(page):
     print('Browse '+page)
@@ -52,16 +52,16 @@ def test_tools():
 if __name__ == '__main__' :
     
     # Test editing using notepad
-    # edit_file('tools.py')
+    edit_file('tools.py')
     
     # Test github UNC-CS350 account
-    # github()
+    github()
     
     # Test browsing to web pages
     google()
     # unc()
     
     # Test the windows explorer
-    # explore('C:\\Users\\mark.seaman\\Documents\\GitHub\\CS350')
+    explore('C:\\Users\\Casey\\Documents\\GitHub\\CS350')
     
 
