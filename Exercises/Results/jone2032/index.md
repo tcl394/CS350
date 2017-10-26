@@ -4,7 +4,7 @@
 
 * [Project Plan](Project_Plan.md)
 
-* Tech Plan
+* [Tech Plan](tech_plan.md)
 
 * Design Plan
 
