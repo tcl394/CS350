@@ -8,4 +8,9 @@
 
 * [Design Plan](Design_Plan_Exercise.md)
 
+* Development Exercise
+  * [json]()
+  * [txt]()
+  * [csv]()
+
 ------------
