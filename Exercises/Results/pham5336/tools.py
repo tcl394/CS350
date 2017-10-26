@@ -8,9 +8,13 @@ def edit_file(filename):
     print('Edit file: ' + filename)  
     system('"notepad.exe" '+filename)
     
+#def browse(page):
+ #   print('Browse to: '+page)
+  #  webbrowser.open('http://' +page)
+
 def browse(page):
     print('Browse to: '+page)
-    webbrowser.open('http://' +page)
+    webbrowser.open(page)
     
 def github(githubAcc):
     print('Github CS350 account')
@@ -41,7 +45,7 @@ def explore(dir):
 
 def test_tools():
     edit_file()     #'tools.py'
-    browse()        #'https://www.accuweather.com'
+    browse()        #'iexplore' / 'chrome'
     github()        #'UNC-CS350'
     unc()           # unc()
     google()        #'http://google.com'
