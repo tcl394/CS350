@@ -1,4 +1,4 @@
-# Facebook Lite
+# Facebook Lite Design Plan
 
 ### Architecture
 
