@@ -22,7 +22,7 @@ def github(githubAcc):
     
 def google(webPage):
     print('Open Google')
-    browse(webPage)
+    browse('http://google.com/search?q='+webPage)
     
 def unc():
     print('Open UNC website')
@@ -48,7 +48,7 @@ def test_tools():
     browse()        #'iexplore' / 'chrome'
     github()        #'UNC-CS350'
     unc()           # unc()
-    google()        #'http://google.com'
+    google()        #'software engineering'
     explore()       #'C:\\Users\Public\Videos'
 
 
