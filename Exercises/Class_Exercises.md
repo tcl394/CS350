@@ -16,4 +16,12 @@ Exercises for this class
 * [Shared Github Account](Shared_Git.md) due 10/16
 * [Student Results Exercise](Student_Results_Exercise.md) due 10/18
 * [Markdown Documents Exercise](Markdown_Exercise.md) due 10/20
+* [Github Login](Github_Login.md) due 10/30
+
+## Coding Exercises
+
+* [Development Setup](Development_Exercise.md) due 10/25
+* [Pair Programming](Pair_Programming.md) due 10/27
+* [UI Programming](UI_Programming.md) due 11/1
+
 
