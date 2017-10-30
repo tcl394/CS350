@@ -17,6 +17,7 @@ This list contains the programming partners.
 * dixo7800
 * guzm3915
 * jeon6159 
+* jone2032
 * kell6808
 * mart6384
 * mier2034
@@ -31,4 +32,5 @@ This list contains the programming partners.
 * will2055
 
 ## Partnerships
-* pham5336 - jone2032
+
+* mier2034 & pere1222
