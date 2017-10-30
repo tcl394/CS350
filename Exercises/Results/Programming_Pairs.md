@@ -24,7 +24,6 @@ This list contains the programming partners.
 * munn9422
 * newb3839
 * orte7266
-* pham5336
 * quin9856
 * sack5898
 * seam1870
