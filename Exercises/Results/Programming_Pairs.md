@@ -17,7 +17,6 @@ This list contains the programming partners.
 * dixo7800
 * guzm3915
 * jeon6159 
-* jone2032
 * kell6808
 * mart6384
 * mier2034
