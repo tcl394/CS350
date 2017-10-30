@@ -32,4 +32,4 @@ This list contains the programming partners.
 * will2055
 
 ## Partnerships
-
+* pham5336 - jone2032
