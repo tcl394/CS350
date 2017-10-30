@@ -10,4 +10,4 @@ List of Accounts:
 * mier2034 - JonathanMier
 * pham5336 - SangPham
 * gbobo1997 - Robert-Carver
-* adam5491 - TylerAdamsUNCO
+* adam5491 - [TylerAdamsUNCO](https://github.com/TylerAdamsUNCO/Software-Engineering)
