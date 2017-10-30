@@ -6,22 +6,17 @@ This list contains the programming partners.
 
 * adam5491
 * alm3495
-* amin3534
 * bele3926
 * bran5689
 * burk0683
 * carv4345
 * deka3914
-* dixo7800
 * guzm3915
 * jeon6159 
-* jone2032
 * kell6808
 * mart6384
-* mier2034
 * munn9422
 * newb3839
-* orte7266
 * quin9856
 * sack5898
 * seam1870
@@ -32,7 +27,7 @@ This list contains the programming partners.
 
 * pham5336 & jone2032
 * mier2034 & pere1222
-* newb3839 & dixo780
+* newb3839 & dixo7800
 * carl6730 & arch1401
-* amin3534 & carv4345
-* amin3534 & orte7266
+* amin3534 & carv4345 \
+* amin3534 & orte7266 / which one?
