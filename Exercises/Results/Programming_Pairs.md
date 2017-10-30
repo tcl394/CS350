@@ -20,7 +20,6 @@ This list contains the programming partners.
 * jone2032
 * kell6808
 * mart6384
-* mier2034
 * munn9422
 * newb3839
 * orte7266
