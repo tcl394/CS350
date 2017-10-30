@@ -34,4 +34,5 @@ This list contains the programming partners.
 * mier2034 & pere1222
 * newb3839 & dixo780
 * carl6730 & arch1401
-
+* amin3534 & carv4345
+* amin3534 & orte7266
