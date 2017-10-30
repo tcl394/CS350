@@ -13,3 +13,4 @@ List of Accounts:
 * adam5491 - [TylerAdamsUNCO](https://github.com/TylerAdamsUNCO/Software-Engineering)
 * quin9856 - cmquinn97
 * sack5898 - lsackrison
+newb3839 - Chris Newby 
