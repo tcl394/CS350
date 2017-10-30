@@ -34,3 +34,5 @@ This list contains the programming partners.
 
 * pham5336 & jone2032
 * mier2034 & pere1222
+newb3839 & dixo780
+
