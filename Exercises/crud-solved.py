@@ -17,8 +17,10 @@ def add_author(name, email):
 def author_list():
     return read_csv('author.csv')
 
-def author_email():
-    pass
+def author_email(name):
+    for a in author_list():
+        if a[0] == name:
+            return a[1]
 
 def change_email():
     pass
@@ -43,9 +45,9 @@ def test_author_file():
         print('    '.join(a))
 
     
-# CSV file Author contains 'Bill, Bill@Here.com'
+# CSV file Author contains 'Bill,Bill@Here.com'
 def test_author_bill():
-    write_file('author.csv', 'Bill, Bill@Here.com')
+    write_file('author.csv', 'Bill,Bill@Here.com')
     authors = author_list()
     assert(authors[0][0] == 'Bill')
 
@@ -64,11 +66,12 @@ def test_author_list():
 
 # Print Author email
 def test_author_email():
-    pass
+    #print(author_email('Bill'))
+    assert(author_email('Bill') == 'Bill@Here.com')
 
 # Change Bill's email
 def test_change_email():
-    pass
+    assert(author_email('Sue') == 'Sue@Here.com')
 
 # Delete Author Sue
 def test_delete_author():

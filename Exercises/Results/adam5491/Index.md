@@ -6,6 +6,6 @@
 
 * [Tech Plan](Technology_Plan.md)
 
-* Design Plan
+* [Design Plan](Design_Plan_Exercise.md)
 
 ------------
