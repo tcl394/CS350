@@ -10,10 +10,18 @@ Exercises for this class
 * [Design Plan](Design_Plan_Exercise.md) due 10/23
 
 
+
 ## Version Control Exercises
 
 * [Personal Git](Personal_Git.md) due 10/13
 * [Shared Github Account](Shared_Git.md) due 10/16
 * [Student Results Exercise](Student_Results_Exercise.md) due 10/18
 * [Markdown Documents Exercise](Markdown_Exercise.md) due 10/20
+* [Github Login Exercise](Github_Login.md) due 10/30
 
+
+## Code Exercises
+
+* [Development Loop](Development_Exercise.md) due 10/25
+* [Pair Programming](Pair_Programming.md) due 10/30
+* [Unit Test](Unit_Test.md) due 11/3
