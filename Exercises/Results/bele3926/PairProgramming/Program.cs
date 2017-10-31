@@ -41,8 +41,8 @@ namespace pair_Programming
         public void update_auther()
         {
             SqlCommand cmd = new SqlCommand("update auther set name = @name,email = @email,Where email='" + email + "'", connection);
-            cmd.Parameters.AddWithValue("@title", name);
-            cmd.Parameters.AddWithValue("@author", email);
+            cmd.Parameters.AddWithValue("@name", name);
+            cmd.Parameters.AddWithValue("@email", email);
                     }
         public void delete_auther()
         {
