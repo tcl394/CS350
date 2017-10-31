@@ -31,3 +31,4 @@ This list contains the programming partners.
 * carl6730 & arch1401
 * amin3534 & carv4345 \
 * amin3534 & orte7266 / which one?
+* will2055 & kell6808
