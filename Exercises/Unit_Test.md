@@ -16,21 +16,21 @@ Learn how to write unit tests
 
 ## Steps
 
-1. Create a code file called unit_test.py (or unit_test.cs, unit_test.java, etc.)
+1. Create a code file called **unit_test.py** (or unit_test.cs, unit_test.java, etc.)
 
-2. Create a function to test all the features and invoke it automatically.  Name it test_user().
+2. Create a function to test all the features and invoke it automatically.  Name it **test_user()**.
 
-3. Create a test to verify creation of a User class object.  Name it test_create().  This should fail.
+3. Create a test to verify creation of a User class object.  Name it **test_create()**.  This should fail.
 
-4. Make test_create() pass by creating an object class called User.
+4. Make **test_create()** pass by creating an object class called User.
 
 5. Test for properties to be set for first name and last name.  This should fail.  Now add code to create and set those properties.
 
 6. Test for email property.  Then add it to the User class.
 
-7. Create four test cases for creating user object with different names.
+7. Create four test cases for creating user objects with different names.
 
-8. Extract the duplication by creating test_a_name(first,last,name) function.  Make sure that all tests still pass.
+8. Extract the duplication by creating **test_a_name(first,last,name)** function.  Make sure that all tests still pass.
 
 9. Create a function that adds a number of users from a list, verifying each one.
 
