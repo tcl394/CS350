@@ -4,62 +4,62 @@
 ## Architecture
 
 
-	* Computer client - Web browser
-	* Web server - http, urls to web pages
-	* Email server - SMTP
-	* Application server - function interface
-	* Database - CRUD for User, Post, Friend
+* Computer client - Web browser
+* Web server - http, urls to web pages
+* Email server - SMTP
+* Application server - function interface
+* Database - CRUD for User, Post, Friend
 
 
 Web Server Interface
 
 
-	* Login
+* Login
 
-		* register (name, email, password)
-		* login (name, password)
-	* Author
+	* register (name, email, password)
+	* login (name, password)
+* Author
 
-		* add_post (user, body, post_id)
-		* edit_post (user, body, post_id)
-		* delete_post (user, post_id)
-	* Friend
+	* add_post (user, body, post_id)
+	* edit_post (user, body, post_id)
+	* delete_post (user, post_id)
+* Friend
 
-		* get_post (post_id)
-		* list_posts (user)
-	* News
+	* get_post (post_id)
+	* list_posts (user)
+* News
 
-		* register (email)
-		* verify_email (token)
-		* unsubscribe (email)
+	* register (email)
+	* verify_email (token)
+	* unsubscribe (email)
 
 
 Application Server Interface
 
 
-	* User
+* User
 
-		* CRUD - create, read, update, delete
-	* Post
+	* CRUD - create, read, update, delete
+* Post
 
-		* CRUD - create, read, update, delete
-	* Friend
+	* CRUD - create, read, update, delete
+* Friend
 
-		* CRUD - create, read, update, delete
+	* CRUD - create, read, update, delete
 
 
 Database Schema
 
 
-	* User
+* User
 
-		* name, email, password
-	* Post
+	* name, email, password
+* Post
 
-		* user, post_id, body
-	* Friend
+	* user, post_id, body
+* Friend
 
-		* user_id
+	* user_id
 
 
 

@@ -20,8 +20,10 @@ Exercises for this class
 * [Github Login Exercise](Github_Login.md) due 10/30
 
 
-## Code Exercises
 
-* [Development Loop](Development_Exercise.md) due 10/25
+## Coding Exercises
+
+* [Development Setup](Development_Exercise.md) due 10/25
 * [Pair Programming](Pair_Programming.md) due 10/30
+* [UI Programming](UI_Programming.md) due 11/1
 * [Unit Test](Unit_Test.md) due 11/3

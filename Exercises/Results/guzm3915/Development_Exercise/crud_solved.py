@@ -18,18 +18,19 @@ def test_author_crud():
 
 	# Tests to write for Author CRUD
 
-	# CSV file named 'author.csv' exists
+	# A CSV file exists
 	
 	from os.path import exists
+	create_author_file()
 	assert(exists('author.csv'))
 
-	# CSV file Author contains 'Bill, Bill@Here.com'
-	# Add 'Sue' to Author table
-	# Add list of other names (10 people)
-	# Read CSV records
-	# Print Author email
-	# Change Bill's email
-	# Delete Author Sue
+	# * CSV file Author 'Bill, Bill@Here.com'
+	# * Add 'Sue' to Author table
+	# * Add list of other names (10 people)
+	# * Read CSV records
+	# * Print Author email
+	# * Change email
+	# * Delete Author
 
 
 def test_article_crud():
@@ -54,6 +55,23 @@ def test_article_crud():
 	assert(t==text)
 	assert(t!=text)
 
+def change_email():
+        return
+
+def author_crud():
+        
+        return
+
+def article_crud():
+        
+        return
+
+def create_author_file():
+        open('author.csv', 'w').write('xxx')
+        
+def add_author():
+        
+        return
 
 # Run test
 if __name__ == '__main__' :

@@ -44,12 +44,12 @@ def explore(dir):
 # Test the tools
 
 def test_tools():
-    edit_file()     #'tools.py'
-    browse()        #'iexplore' / 'chrome'
-    github()        #'UNC-CS350'
-    unc()           # unc()
-    google()        #'software engineering'
-    explore()       #'C:\\Users\Public\Videos'
+    edit_file('tools.py')                   #'tools.py'
+    browse('iexplore')                      #'iexplore' / 'chrome'
+    github('UNC-CS350')                     #'UNC-CS350'
+    unc()                                   # unc()
+    google('software engineering')          #'software engineering'
+    explore('C:\\Users\Public\Videos')      #'C:\\Users\Public\Videos'
 
 
 # Run code as a script
