@@ -11,7 +11,6 @@ This list contains the programming partners.
 * jeon6159 
 * mart6384
 * munn9422
-* newb3839
 * quin9856
 * toll8030
 
