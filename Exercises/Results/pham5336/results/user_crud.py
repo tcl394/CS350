@@ -85,7 +85,9 @@ def test_user_add():
         #add_user('1','teset1','tester1@hello.com')
         add_user('5','teset5','tester5@hello.com')
         #add_user('7','teset7','tester7@hello.com')
-
+        
+def test_user_list():
+        user_list()
         
 def test_user_email_display():
         #user_email_display(1)
@@ -110,6 +112,7 @@ def test_delete_user():
 def test_user_crud():
         test_user_file()
         test_user_add()
+        tset_user_list()
         test_user_email_display()
         test_user_email_change()
         test_delete_user()
@@ -124,32 +127,12 @@ def test_user_crud():
 
 
 
-#=============================
-#def test_article_crud():
 
-	# * CSV file Article 'Rattlesnakes, I hate snakes'
-	# * Print Article list
-	# * Add Article 'Kittens, Kittens are Fuzzy'
-	# * Add author_id of 4 to Articles
-	# * Print Articles showing Author names
-	# * Select articles for Author 4
-	# * Lookup '4, Kittens'
-	# * Change 'Kittens' body to 'Kittens are cute!'
-	# * Remove Article
-	# * Remove Author
 
-	#text = "line1\nline2"
-	#path = 'test.txt'
-	#write_file(path, text)
-	#t = read_file(path)
-	#print('text:'+text+'$')
-	#print('t:'+t+'$')
-	#assert(t==text)
-	#assert(t!=text)
+
 
 
 # Run test
 #if __name__ == '__main__' :
-#    test_author_crud()
-    #test_article_crud()
-
+#    test_user_crud()
+   
