@@ -21,3 +21,4 @@ List of Accounts:
 * arch1401  - Brittany Archibeque
 * orte7266 - Rafael Ortega
 * munn9422 - [munn9422](https://github.com/munn9422/Software-Engineering)
+* eragon5779 - [Casey Burklow](https://github.com/Eragon5779/Software-Engineering)
