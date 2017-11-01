@@ -16,23 +16,34 @@ from csv import reader, writer
 # * Use the main script hack to run your code directly
 # * Finish with a beautiful module call social_net_crud.py
 
-# Functions
+
+
+#=============================================================================
+
+# * CSV file User 'Bill, Bill@Here.com'
+	# * Add 'Sue' to User table
+	# * Add list of other names (10 people)
+	# * Read CSV records
+	# * Print User email
+	# * Change email
+	# * Delete Use
+
+
+# User CRUD
 def create_user_file():
         open('user.csv','w')
-        
-def add_user(userid,name,email):
-
-        user = user_list()
-        user.append([userid,name,email])
-        write_csv('user.csv', user)
-        return user
 
 
 def user_list():
         return read_csv('user.csv')
         userList = read_csv('user.csv')
         print(userList)
-
+        
+def add_user(userid,name,email):
+        user = user_list()
+        user.append([userid,name,email])
+        write_csv('user.csv', user)
+        return user
 
 
 def user_email():
@@ -44,65 +55,66 @@ def user_email():
 def user_email_display(userID):
         user = user_list()
         for i in user:
-                ide = int(i[0])
-                if ide == userID:
-                        print(i[0] + ' ' + i[1] + ' ' +i[2])
+                if int(i[0]) == userID:
+                        print('User Name: ' + i[1] + '\nEmail: ' +i[2])
                       
 
 def user_email_change(userID, newEmail):
         user = user_list()
         for i in user:
-                ide = int(i[0])
-                if ide == userID:
+                if int(i[0]) == userID:
                         i[2] = newEmail
         write_csv('user.csv',user)
         
 
-def delete_user():
-        pass
+def delete_user(userID):
+        user = user_list()
+        for i in user:
+                if int(i[0]) == userID:
+                      user.remove(i)
+        write_csv('user.csv',user)             
 
 
-     #   userInfo = open('user.csv','r')
-    #    for line in userInfo:
-    #            userInfo.write(line.replace([1],newEmail))
-    #    userInfo.close()   
-        
-
-
-  
-
+#=============================================================================
 # Test building Article CRUD
 def test_user_file():
         create_user_file()
         assert(exists('user.csv'))
 	
 def test_user_add():
-        add_user('23','hello','hello@hello.com')
+        #add_user('1','teset1','tester1@hello.com')
+        add_user('5','teset5','tester5@hello.com')
+        #add_user('7','teset7','tester7@hello.com')
 
+        
 def test_user_email_display():
-        user_email_display(1)
+        #user_email_display(1)
+        user_email_display(5)
+        #user_email_display(7)
+        
+def test_user_email_change():
+        #user_email_change(1, 'emailchanged@hello.com')
+        user_email_change(5, 'emailchanged@hello.com')
+        #user_email_change(7, 'emailchanged@hello.com')
 
-
-
+def test_delete_user():
+        add_user(2, 'tester2','tester2@hello.com')
+        #delete_user(1)
+        delete_user(5)
+        #delete_user(7)
 
 
 
 #=============================
-  
+# 1 test for all tests
 def test_user_crud():
         test_user_file()
         test_user_add()
         test_user_email_display()
-
-
+        test_user_email_change()
+        test_delete_user()
       
-	# * CSV file Author 'Bill, Bill@Here.com'
-	# * Add 'Sue' to User table
-	# * Add list of other names (10 people)
-	# * Read CSV records
-	# * Print User email
-	# * Change email
-	# * Delete Use
+#=============================================================================	
 
 
 
