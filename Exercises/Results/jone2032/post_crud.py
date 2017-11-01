@@ -49,6 +49,7 @@ def post_list():
     return read_csv('post.csv')
 
 def post_add(postID, title, textbody, userID):
+    # generate postID later
     pass
 
 def post_add_userID(postID):
@@ -74,10 +75,11 @@ def test_post_file():
     assert(exists('post.csv'))
            
 def test_post_list():
-    post_list()
+    Print(post_list())
     
     
 def test_post_add():
+	# post_add(1, "My Post", "this is my first post!", 1)
     pass
 
 def test_post_add_userID():
