@@ -27,6 +27,7 @@ def add_user(userid,name,email):
         write_csv('user.csv', user)
         return user
 
+
 def user_list():
         return read_csv('user.csv')
         userList = read_csv('user.csv')
@@ -40,13 +41,22 @@ def user_email():
                 print(i[2])
         
 
-def user_email_display(userid):
+def user_email_display(userID):
         user = user_list()
         for i in user:
                 ide = int(i[0])
-                if ide == userid:
+                if ide == userID:
                         print(i[0] + ' ' + i[1] + ' ' +i[2])
                       
+
+def user_email_change(userID, newEmail):
+        user = user_list()
+        for i in user:
+                ide = int(i[0])
+                if ide == userID:
+                        i[2] = newEmail
+        write_csv('user.csv',user)
+        
 
 def delete_user():
         pass
@@ -70,7 +80,11 @@ def test_user_add():
         add_user('23','hello','hello@hello.com')
 
 def test_user_email_display():
-        user_email_display(23)
+        user_email_display(1)
+
+
+
+
 
 
 #=============================
@@ -98,7 +112,7 @@ def test_user_crud():
 
 
 
-
+#=============================
 #def test_article_crud():
 
 	# * CSV file Article 'Rattlesnakes, I hate snakes'
