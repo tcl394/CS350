@@ -4,7 +4,6 @@ This list contains the programming partners.
 
 ## Individuals that are not paired
 
-* adam5491
 * alm3495
 * bele3926
 * bran5689
@@ -16,7 +15,6 @@ This list contains the programming partners.
 * munn9422
 * newb3839
 * quin9856
-* sack5898
 * toll8030
 
 ## Partnerships
