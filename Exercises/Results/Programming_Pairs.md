@@ -28,3 +28,4 @@ This list contains the programming partners.
 * amin3534 & carv4345 \
 * amin3534 & orte7266 / which one?
 * will2055 & kell6808
+* adam5491 & sack5898
