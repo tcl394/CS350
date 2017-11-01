@@ -7,9 +7,7 @@ This list contains the programming partners.
 * alm3495
 * bele3926
 * bran5689
-* burk0683
 * deka3914
-* guzm3915
 * jeon6159 
 * mart6384
 * munn9422
@@ -27,3 +25,4 @@ This list contains the programming partners.
 * amin3534 & orte7266 / which one?
 * will2055 & kell6808
 * adam5491 & sack5898
+* burk0683 & guzm3915
