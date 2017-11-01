@@ -26,5 +26,5 @@ def test_file():
 
 
 # Run test
-#if __name__ == '__main__' :
-#    test_file()
+if __name__ == '__main__' :
+    test_file()
