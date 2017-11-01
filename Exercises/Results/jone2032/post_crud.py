@@ -75,7 +75,7 @@ def test_post_file():
     assert(exists('post.csv'))
            
 def test_post_list():
-    Print(post_list())
+    print (post_list())
     
     
 def test_post_add():
