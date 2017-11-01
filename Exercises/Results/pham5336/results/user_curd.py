@@ -29,12 +29,15 @@ def add_user(userid,name,email):
 
 def user_list():
         return read_csv('user.csv')
+        userList = read_csv('user.csv')
+        print(userList)
 
 
 
 def user_email():
         user = user_list()
-        print(user[1][1])
+        for i in user:
+                print(i[2])
         
 
 def user_email_display(userid):
