@@ -112,7 +112,7 @@ def test_delete_user():
 def test_user_crud():
         test_user_file()
         test_user_add()
-        tset_user_list()
+        test_user_list()
         test_user_email_display()
         test_user_email_change()
         test_delete_user()
