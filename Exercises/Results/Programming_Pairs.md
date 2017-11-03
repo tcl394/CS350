@@ -2,19 +2,12 @@
 
 This list contains the programming partners. 
 
-## Individuals that are not paired
-
-* alm3495
-* bran5689
-* carv4345
-* deka3914
-* mart6384
-* munn9422
-* quin9856
-* toll8030
-
 ## Partnerships
 
+* alm3495 & bran5689
+* carv4345 & deka3914
+* mart6384 & munn9422
+* quin9856 & toll8030
 * pham5336 & jone2032
 * mier2034 & pere1222
 * newb3839 & dixo7800
