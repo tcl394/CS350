@@ -220,16 +220,17 @@ def test_user_crud():
 	# * Print Author email
 	# * Change email
 	# * Delete Author
-
+        print('TEST FOR USER CRUD','\n=============================')
         test_user_file()
         test_user_add()
         test_user_list()
         test_user_email_display()
         test_user_email_change()
         test_delete_user()
-
-def test_post_crud():
+        print('\n')
         
+def test_post_crud():
+        print('TEST FOR POST CRUD','\n=============================')
 	# * CSV file Article 'Rattlesnakes, I hate snakes'
 	# * Print Article list
 	# * Add Article 'Kittens, Kittens are Fuzzy'
