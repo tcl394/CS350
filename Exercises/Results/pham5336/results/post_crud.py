@@ -20,7 +20,7 @@ from csv import reader, writer
 
 
 #=============================================================================
-#def test_article_crud():
+#def test_post_crud():
 
 	# * CSV file Article 'Rattlesnakes, I hate snakes'
 	# * Print Article list
@@ -48,6 +48,14 @@ def create_post_file():
 def post_list():
     return read_csv('post.csv')
 
+
+def display_post_file():
+    post = post_list()
+    print('Posts on file:')
+    for p in post:
+        print(p[0], ' ' , p[1], ' ' ,p[2] , ' ',p[3])
+
+    
 def post_add(postID, title, textbody, userID):
     post = post_list()
     post.append([postID, title, textbody, userID])
@@ -67,7 +75,7 @@ def post_list_by_userID(userID):
     post = post_list()
     for p in post:
         if int(p[3]) == userID:
-            print('UserID: ', p[3] ,'\nPostID: ', p[0], '\nTitle: ', p[1],'\nBody ', p[2])
+            print('UserID: ', p[3] ,'\nPostID: ', p[0], '\nTitle: ', p[1],'\nBody ', p[2], '\n==========================')
     
 
 def post_textbody_change(postID, newText):
@@ -97,25 +105,34 @@ def test_post_file():
            
 def test_post_list():
     post_list()
+
+def test_display_post_file():
+    display_post_file()
+
        
 def test_post_add():
     post_add(4, 'Newtest1','Here is body of newtest1', 0)    
-    #post_add(5, 'Newtest2','Here is body of newtest2', 0)
-    #post_add(6, 'Newtest3','Here is body of newtest3', 0)
+    post_add(5, 'Newtest2','Here is body of newtest2', 0)
+    post_add(6, 'Newtest3','Here is body of newtest3', 0)
+    post_add(7, 'Newtest4','Here is body of newtest4', 0)
+    post_add(8, 'Newtest5','Here is body of newtest5', 0)
+    post_add(9, 'Newtest6','Here is body of newtest6', 0)
     
 def test_post_add_userID():
     post_add_userID(4, 20)
-    #post_add_userID(5, 20)
-    #post_add_userID(6, 23)
-    
+    post_add_userID(5, 20)
+    post_add_userID(6, 23)
+    post_add_userID(7, 20)
+    post_add_userID(8, 30)
+    post_add_userID(9, 23)
 
 def test_post_list_by_userID():
     post_list_by_userID(20)
     #post_list_by_userID(23)
-    #post_list_by_userID(30)
+    post_list_by_userID(30)
     
 def test_post_textbody_change():
-    #post_textbody_change(4, 'Changed text of newtest1')
+    post_textbody_change(4, 'Changed text of newtest1')
     #post_textbody_change(5, 'Changed text of newtest2')
     post_textbody_change(6, 'Changed text of newtest3')
     
@@ -130,13 +147,16 @@ def test_delete_post():
 def test_post_crud():
     test_post_file()
     test_post_list()
+    test_display_post_file()
     test_post_add()
     test_post_add_userID()
     test_post_list_by_userID()
     test_post_textbody_change()
     test_delete_post()
-
-    test_post_list()
+    test_display_post_file()
+    
+    
+    
     
 
 
