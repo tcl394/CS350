@@ -4,65 +4,65 @@
 
 Projects
 
-	* Software Engineering
-	* Software Process
-	* Project Management
+* Software Engineering
+* Software Process
+* Project Management
 
 ### Week 8 - 10/9
 
 Technology
 
-	* Learning
-	* Software Frameworks
-	* Dev Tools
+* Learning
+* Software Frameworks
+* Dev Tools
 
 ### Week 9 - 10/16
 
 Design
 
-	* Architecture & Interfaces
-	* Detailed Design
-	* Data Design
+* Architecture & Interfaces
+* Detailed Design
+* Data Design
 
 ### Week 10 - 10/23
 
 Code
 
-	* Test-driven Development
-	* Multiple Development Loops
-	* Simple, Second, General, Optimum
+* Test-driven Development
+* Multiple Development Loops
+* Simple, Second, General, Optimum
 
 ### Week 11 - 10/30
 
 Test
 
-	* Types of Tests
-	* Unit tests
-	* System tests
+* Types of Tests
+* Unit tests
+* System tests
 
 ### Week 12 - 11/6
 
 Dev Ops
 
-	* Hosting and Server Options
-	* Managing server images
-	* Monitoring and Logging
+* Hosting and Server Options
+* Managing server images
+* Monitoring and Logging
 
 ### Week 13 - 11/13
 
 Risk Management
 
-	* Technical Debt
-	* Project Tracking
-	* Best Practice
+* Technical Debt
+* Project Tracking
+* Best Practice
 
 ### Week 14 - 11/27
 
 Professional Development
 
-	* Working with Others
-	* Expectations
-	* Mutual Interests
+* Working with Others
+* Expectations
+* Mutual Interests
 
 
 
