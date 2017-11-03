@@ -27,3 +27,4 @@ List of Accounts:
 * tcl394 - Teresa Carlson
 * MSTKELLY - Michael Kelly
 * jeon6159 - ArinJeong
+* jone2032 - [Nik Jones](https://github.com/njonesm8/Software-Engineering)
