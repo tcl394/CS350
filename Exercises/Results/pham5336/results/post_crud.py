@@ -49,19 +49,41 @@ def post_list():
     return read_csv('post.csv')
 
 def post_add(postID, title, textbody, userID):
-    pass
+    post = post_list()
+    post.append([postID, title, textbody, userID])
+    write_csv('post.csv', post)
+    return post
+    
 
-def post_add_userID(postID):
-    pass
+def post_add_userID(postID, userID):
+    post = post_list()
+    for p in post:
+        if int(p[0]) == postID:
+            p[3] = userID
+    write_csv('post.csv', post)            
+    
 
 def post_list_by_userID(userID):
-    pass
+    post = post_list()
+    for p in post:
+        if int(p[3]) == userID:
+            print('UserID: ', p[3] ,'\nPostID: ', p[0], '\nTitle: ', p[1],'\nBody ', p[2])
+    
 
-def post_textbody_change(postID):
-    pass
+def post_textbody_change(postID, newText):
+    post = post_list()
+    for p in post:
+        if int(p[0]) == postID:
+            p[2] = newText
+    write_csv('post.csv',post)
+            
 
 def delete_post(postID):
-    pass
+    post = post_list()
+    for p in post:
+        if int(p[0]) == postID:
+            post.remove(p)
+    write_csv('post.csv', post)
 
 
 
@@ -75,52 +97,47 @@ def test_post_file():
            
 def test_post_list():
     post_list()
-    
-    
+       
 def test_post_add():
-    pass
-
+    post_add(4, 'Newtest1','Here is body of newtest1', 0)    
+    #post_add(5, 'Newtest2','Here is body of newtest2', 0)
+    #post_add(6, 'Newtest3','Here is body of newtest3', 0)
+    
 def test_post_add_userID():
-    pass
+    post_add_userID(4, 20)
+    #post_add_userID(5, 20)
+    #post_add_userID(6, 23)
+    
 
 def test_post_list_by_userID():
-    pass
-
+    post_list_by_userID(20)
+    #post_list_by_userID(23)
+    #post_list_by_userID(30)
+    
 def test_post_textbody_change():
-    pass
-
+    #post_textbody_change(4, 'Changed text of newtest1')
+    #post_textbody_change(5, 'Changed text of newtest2')
+    post_textbody_change(6, 'Changed text of newtest3')
+    
 def test_delete_post():
-    pass
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    #delete_post(4)
+    delete_post(5)
+    #delete_post(6)
+    
 
 #=============================================================================
 # 1 test for all tests
+def test_post_crud():
+    test_post_file()
+    test_post_list()
+    test_post_add()
+    test_post_add_userID()
+    test_post_list_by_userID()
+    test_post_textbody_change()
+    test_delete_post()
 
-
-
-
-
-
-
+    test_post_list()
+    
 
 
 
