@@ -24,3 +24,4 @@ List of Accounts:
 * eragon5779 - [Casey Burklow](https://github.com/Eragon5779/Software-Engineering)
 * bele3926 - abiybelew (https://github.com/abiybelew/Software-Engineering)
 * guzm3915 - Github: [kmanrulze](https://github.com/kmanrulze/CS350)
+* tcl394 - Teresa Carlson
