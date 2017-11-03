@@ -26,3 +26,4 @@ List of Accounts:
 * guzm3915 - Github: [kmanrulze](https://github.com/kmanrulze/CS350)
 * tcl394 - Teresa Carlson
 * MSTKELLY - Michael Kelly
+* jeon6159 - ArinJeong
