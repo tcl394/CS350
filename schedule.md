@@ -8,8 +8,6 @@ Projects
 	* Software Process
 	* Project Management
 
-
-
 ### Week 8 - 10/9
 
 Technology
@@ -17,8 +15,6 @@ Technology
 	* Learning
 	* Software Frameworks
 	* Dev Tools
-
-
 
 ### Week 9 - 10/16
 
@@ -28,8 +24,6 @@ Design
 	* Detailed Design
 	* Data Design
 
-
-
 ### Week 10 - 10/23
 
 Code
@@ -38,37 +32,29 @@ Code
 	* Multiple Development Loops
 	* Simple, Second, General, Optimum
 
-
-
 ### Week 11 - 10/30
 
 Test
 
+	* Types of Tests
 	* Unit tests
-	* Component tests
 	* System tests
-
-
 
 ### Week 12 - 11/6
 
-Risk Management & Technical Debt
+Dev Ops
 
-	* Pay Now/Pay Later
-	* Types of Debt
-	* Project Scope
-
-
+	* Hosting and Server Options
+	* Managing server images
+	* Monitoring and Logging
 
 ### Week 13 - 11/13
 
-Best Practice
+Risk Management
 
-	* Identify the Problem - listen to pain
-	* Find a solution - simplest thing that works
-	* Use the best solution - standardize
-
-
+	* Technical Debt
+	* Project Tracking
+	* Best Practice
 
 ### Week 14 - 11/27
 
