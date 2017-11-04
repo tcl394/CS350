@@ -28,3 +28,4 @@ List of Accounts:
 * MSTKELLY - Michael Kelly
 * jeon6159 - ArinJeong
 * jone2032 - [Nik Jones](https://github.com/njonesm8/Software-Engineering)
+* will2055 - [Brandon Williams](https://github.com/will2055/Software-Engineering)
