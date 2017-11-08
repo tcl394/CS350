@@ -29,8 +29,18 @@ def set_users():
     two.firstName = 'Mary'
     two.lastName = 'Jane'
     two.email = 'MJ@Aye.com
+	
+	three.firstName = 'Fish'
+	three.lastName = 'Food'
+	three.email = 'FishFood@Email.com
+	
+	four.firstName = 'Bar'
+	four.lastName = 'Bell'
+	four.email = 'LiftHeavy@gym.com
     
     a.append(one)
     a.append(two)
+	a.append(three)
+	a.append(four)
 
     return a
