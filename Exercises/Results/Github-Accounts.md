@@ -32,5 +32,4 @@ List of Accounts:
 * jeon6159 - ArinJeong
 * jone2032 - njonesm8
 * will2055 - will2055
-
 *aminunco - Fateh Amin
