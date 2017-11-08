@@ -31,16 +31,16 @@ def set_users():
   two.email = 'MJ@Aye.com
 	
   three.firstName = 'Fish'
-	three.lastName = 'Food'
-	three.email = 'FishFood@Email.com
+  three.lastName = 'Food'
+  three.email = 'FishFood@Email.com
 	
-	four.firstName = 'Bar'
-	four.lastName = 'Bell'
-	four.email = 'LiftHeavy@gym.com
+  four.firstName = 'Bar'
+  four.lastName = 'Bell'
+  four.email = 'LiftHeavy@gym.com
     
   a.append(one)
   a.append(two)
-	a.append(three)
-	a.append(four)
+  a.append(three)
+  a.append(four)
 
   return a
