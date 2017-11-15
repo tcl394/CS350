@@ -1,0 +1,162 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.IO;
+
+namespace Pair_Programming_Exercises
+{
+    class Program
+    {
+
+        struct ValuePair
+        {
+            public string Title;
+            public string Contents;
+            public ValuePair(string TitleInput, string ContentsInput)
+            {
+
+                this.Title = TitleInput;
+                this.Contents = ContentsInput;
+
+            }
+
+        }
+        static void Main(string[] args)
+        {
+            AuthorCRUD();
+            ArticleCRUD();
+        }
+
+        private static void AuthorCRUD()
+        {
+            //Check if The File Exists
+            //bool a = File.Exists(@"C:\Users\Orte7\Desktop\Pair Programming Exercises\Pair Programming Exercises\bin\Debug\author.csv"
+            bool fileExists = File.Exists("author.csv");
+            Console.WriteLine("File Exists: " + fileExists);
+            Thread.Sleep(500);
+            File.WriteAllText("author.csv", "0,Bill,Bill@Here.com");
+
+            //Check if The File Contains Bill, Bill@Here.com
+            //FileStream fileContents = File.Open("author.csv", FileMode.Open);
+            string fileContents = string.Join("", File.ReadAllLines("author.csv"));
+            bool containsTest = fileContents.Contains("0,Bill,Bill@Here.com");
+            Console.WriteLine("File Contains 'Bill, Bill@Here.com': " + containsTest);
+            Thread.Sleep(500);
+
+            //Add 'Sue' to Author Table
+            //StreamWriter fileWriter = new StreamWriter("author.csv")
+            using (StreamWriter fileWriter = new StreamWriter("author.csv", true))
+            {
+                fileWriter.WriteLine("1,Sue,Sue@Here.com");
+                fileWriter.Close();
+            }
+            Console.WriteLine("Sue Added to Authors Table: Complete");
+            Thread.Sleep(500);
+
+            //Add 10 Other Authors to Table
+            string[] authors = new string[] { "Bob", "John", "Mike", "Steve", "Luke", "Tom", "Jerry", "Tim", "Fateh", "Rafi" };
+            int index = 2;
+            using (StreamWriter fileWriter = new StreamWriter("author.csv", true))
+            {
+                foreach (string author in authors)
+                {
+                    fileWriter.WriteLine(index + "," + author + ", " + author + "@Here.com");
+                    Console.WriteLine(author + " added to File: Complete");
+                    Thread.Sleep(50);
+                    index += 1;
+                }
+                fileWriter.Close();
+            }
+
+            //Read CSV Records and Print Emails
+            Console.WriteLine("CSV File Records:");
+            //string[] fileContentsArray = File.ReadAllLines("author.csv");
+            //foreach (string item in fileContentsArray)
+            //{
+            //    Console.WriteLine(item.Split(',')[1]);
+            //    Thread.Sleep(50);
+            //}
+            Dictionary<string, string> keyValues = new Dictionary<string, string>();
+
+            foreach (string item in File.ReadAllLines("author.csv"))
+            {
+                keyValues.Add(item.Split(',')[1], item.Split(',')[2].Trim());
+            }
+
+            foreach (KeyValuePair<string, string> item in keyValues)
+            {
+                Console.WriteLine(item.Value);
+            }
+
+            //Change Bills Email
+            keyValues["Bill"] = "NotBill@Here.com";
+            Console.WriteLine("Changing Bills Email: Complete");
+
+            //Remove Sue
+            keyValues.Remove("Sue");
+            Console.WriteLine("Removing Sue From Data");
+
+            File.WriteAllText("author.csv", string.Empty);
+            index = 0;
+            string contents = "";
+            foreach (KeyValuePair<string, string> item in keyValues)
+            {
+                contents += index + "," + item.Key + "," + item.Value + Environment.NewLine;
+                index += 1;
+            }
+            //string contents = String.Join(Environment.NewLine, keyValues.Select(d =>d.Key + ", " + d.Value));
+            File.WriteAllText("author.csv", contents);
+
+            Console.WriteLine("File Rewritten: Complete");
+            Console.WriteLine("Exiting in 5 Seconds");
+            Thread.Sleep(5000);
+        }
+
+        private static void ArticleCRUD()
+        {
+            //Check if The File Exists
+            bool fileExists = File.Exists("article.csv");
+            Console.WriteLine("File Exists: " + fileExists);
+            if (!fileExists)
+            {
+                File.Create("article.csv");
+                Console.WriteLine("File Created");
+            }
+            Thread.Sleep(50);
+
+            //CSV file Contains 'Rattlesnakes, I hate snakes'
+            string fileContents = string.Join("", File.ReadAllLines("article.csv"));
+            if (fileContents.Contains("Rattlesnakes, I hate snakes"))
+            {
+                Console.WriteLine("File Contains Rattlesnakes: True");
+            }
+            else
+            {
+                File.WriteAllText("article.csv", "4,Rattlesnakes,I hate snakes");
+            }
+
+            //Print Article List
+            List<Tuple<string, ValuePair>> keyValues = new List<Tuple<string, ValuePair>>();
+            foreach (string item in File.ReadAllLines("article.csv"))
+            {
+                Tuple<string, ValuePair> pair = new Tuple<string, ValuePair>();
+                keyValues.Add(new Tuple<item.Split(',')[0], new ValuePair(item.Split(',')[1], item.Split(',')[2])>);
+            }
+
+            foreach (KeyValuePair<string, ValuePair> item in keyValues)
+            {
+                Console.WriteLine(item.Value.Title + ", " + item.Value.Contents);
+            }
+
+            //Add Article Kittnes Are Fuzzy
+            keyValues.Add("4", new ValuePair("Kittens", "Kittens are Fuzzy"));
+
+            Thread.Sleep(10000);
+
+
+
+        }
+    }
+}

@@ -15,16 +15,20 @@ def write_file(filepath, text):
 
 # Test that the file reads and writes the same data
 def test_file():
-    text = "line1\nline2"
+    text = "Meow cats"
     path = 'test.txt'
     write_file(path, text)
     t = read_file(path)
     print('text:'+text+'$')
     print('t:'+t+'$')
-   # assert(t==text)
-   # assert(t!=text)
-
+    assert(t==text)
+    text = "Bark dogs"
+    write_file(path, text)
+    print('text:'+text+'$')
+    print('t:'+t+'$')
+    assert(t!=text)
+# Second assertion now passes
 
 # Run test
 if __name__ == '__main__' :
-    test_file()
+        test_file()

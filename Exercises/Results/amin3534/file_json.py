@@ -34,8 +34,8 @@ def test_two_objects():
     write_json(path, s)
     t = read_json(path)
     print(s)
-    #assert(s==t)
-    #assert(s!=t)
+    assert(s==t)
+    assert(s!=t)
 
 
 # Run code as a script

@@ -22,9 +22,11 @@ def test_one_object():
     write_json(path, s)
     t = read_json(path)
     print(s)
-    #assert(s==t)
-    #assert(s!=t)
-
+    assert(s==t)
+    s = {'person': {'name': 'Joe', 'email': 'joe@here.com'}}
+    print(s)
+    assert(s!=t)
+# Second assertion now passes.
 
 # Test writing two objects to the file  
 def test_two_objects():
@@ -34,9 +36,12 @@ def test_two_objects():
     write_json(path, s)
     t = read_json(path)
     print(s)
-    #assert(s==t)
-    #assert(s!=t)
-
+    assert(s==t)
+    s = [{'person': {'name': 'Joe', 'email': 'joe@here.com'}}, 
+         {'person': {'name': 'Steve', 'email': 'steve@here.com'}}]
+    print(s)
+    assert(s!=t)
+# Second assertion now passes.
 
 # Run code as a script
 

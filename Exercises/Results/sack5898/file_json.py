@@ -5,13 +5,13 @@ from file_text import read_file, write_file
 
 # Read python dictionaries from a JSON file
 def read_json(path):
-    s = read_file(path)
+    #s = read_file(path)
     return loads(s)
 
 
 # Write python objects into a JSON file
 def write_json(path, data):
-    s = dumps(data)
+    #s = dumps(data)
     write_file(path, s)
 
 
@@ -22,8 +22,8 @@ def test_one_object():
     write_json(path, s)
     t = read_json(path)
     print(s)
-    #assert(s==t)
-    #assert(s!=t)
+    assert(s==t)
+    assert(s!=t)
 
 
 # Test writing two objects to the file  
@@ -34,8 +34,8 @@ def test_two_objects():
     write_json(path, s)
     t = read_json(path)
     print(s)
-    #assert(s==t)
-    #assert(s!=t)
+    assert(s==t)
+    assert(s!=t)
 
 
 # Run code as a script

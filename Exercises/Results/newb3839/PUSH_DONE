@@ -1,0 +1,349 @@
+Push is done!  Completed 11/10/17 at 7:45 (roughly)
+Microsoft Windows [Version 10.0.16299.19]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\chris>cd CS350
+
+C:\Users\chris\CS350>git clone newb3839
+fatal: repository 'newb3839' does not exist
+
+C:\Users\chris\CS350>git clone https://github.com/newb3839/Software-Engineering-.git
+Cloning into 'Software-Engineering-'...
+remote: Counting objects: 11, done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 11 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (11/11), done.
+
+C:\Users\chris\CS350>cd Software-Engineering
+The system cannot find the path specified.
+
+C:\Users\chris\CS350>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 361D-A6A7
+
+ Directory of C:\Users\chris\CS350
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+10/13/2017  05:50 PM                 8 abc
+10/16/2017  01:55 PM                20 chris
+11/10/2017  07:34 PM    <DIR>          Software-Engineering-
+               2 File(s)             28 bytes
+               3 Dir(s)  370,627,006,464 bytes free
+
+C:\Users\chris\CS350>cd Software-Engineering-
+
+C:\Users\chris\CS350\Software-Engineering->dir /S
+ Volume in drive C is Windows
+ Volume Serial Number is 361D-A6A7
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM    <DIR>          Code
+11/10/2017  07:34 PM    <DIR>          Exercises
+11/10/2017  07:34 PM    <DIR>          Lectures
+11/10/2017  07:34 PM                25 README.md
+               1 File(s)             25 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git
+
+11/10/2017  07:34 PM               316 config
+11/10/2017  07:34 PM                73 description
+11/10/2017  07:34 PM                23 HEAD
+11/10/2017  07:34 PM    <DIR>          hooks
+11/10/2017  07:34 PM               481 index
+11/10/2017  07:34 PM    <DIR>          info
+11/10/2017  07:34 PM    <DIR>          logs
+11/10/2017  07:34 PM    <DIR>          objects
+11/10/2017  07:34 PM               107 packed-refs
+11/10/2017  07:34 PM    <DIR>          refs
+               5 File(s)          1,000 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\hooks
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM               478 applypatch-msg.sample
+11/10/2017  07:34 PM               896 commit-msg.sample
+11/10/2017  07:34 PM               189 post-update.sample
+11/10/2017  07:34 PM               424 pre-applypatch.sample
+11/10/2017  07:34 PM             1,642 pre-commit.sample
+11/10/2017  07:34 PM             1,348 pre-push.sample
+11/10/2017  07:34 PM             4,898 pre-rebase.sample
+11/10/2017  07:34 PM               544 pre-receive.sample
+11/10/2017  07:34 PM             1,239 prepare-commit-msg.sample
+11/10/2017  07:34 PM             3,610 update.sample
+              10 File(s)         15,268 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\info
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM               240 exclude
+               1 File(s)            240 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\logs
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM               201 HEAD
+11/10/2017  07:34 PM    <DIR>          refs
+               1 File(s)            201 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\logs\refs
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM    <DIR>          heads
+11/10/2017  07:34 PM    <DIR>          remotes
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\logs\refs\heads
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM               201 master
+               1 File(s)            201 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\logs\refs\remotes
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM    <DIR>          origin
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\logs\refs\remotes\origin
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM               201 HEAD
+               1 File(s)            201 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\objects
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM    <DIR>          1a
+11/10/2017  07:34 PM    <DIR>          22
+11/10/2017  07:34 PM    <DIR>          25
+11/10/2017  07:34 PM    <DIR>          40
+11/10/2017  07:34 PM    <DIR>          47
+11/10/2017  07:34 PM    <DIR>          7b
+11/10/2017  07:34 PM    <DIR>          82
+11/10/2017  07:34 PM    <DIR>          8b
+11/10/2017  07:34 PM    <DIR>          95
+11/10/2017  07:34 PM    <DIR>          ca
+11/10/2017  07:34 PM    <DIR>          f5
+11/10/2017  07:34 PM    <DIR>          info
+11/10/2017  07:34 PM    <DIR>          pack
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\objects\1a
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM                53 49552dbcc943b8c8ca47b48b66554878d52d05
+               1 File(s)             53 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\objects\22
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM               100 8d50394acdc4788a1c250aca13aa6ea7d882e7
+               1 File(s)            100 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\objects\25
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM               106 d117938388c7b5ce904bd435e66cb27922c761
+               1 File(s)            106 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\objects\40
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM               554 9698f995761fb4d70bad7c2b1f3efa934fee66
+               1 File(s)            554 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\objects\47
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM               551 73d3085f3bda5b55ddb4059b2d7715030f576a
+               1 File(s)            551 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\objects\7b
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM               518 37bb67c510798a0cbe241a9c9c2f86d69f67ab
+               1 File(s)            518 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\objects\82
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM               551 677d77543b3ee792e84a400330429087220d55
+               1 File(s)            551 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\objects\8b
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM                16 137891791fe96927ad78e64b0aad7bded08bdc
+               1 File(s)             16 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\objects\95
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM                40 f41cffacaf185daf7084455b7b8bff527a88df
+               1 File(s)             40 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\objects\ca
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM                88 583ef3a5bb28b9362996d10cd02997a95d8e20
+               1 File(s)             88 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\objects\f5
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM                54 2b2ff4e0cff2e6a978fea71987019676180b4d
+               1 File(s)             54 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\objects\info
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\objects\pack
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\refs
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM    <DIR>          heads
+11/10/2017  07:34 PM    <DIR>          remotes
+11/10/2017  07:34 PM    <DIR>          tags
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\refs\heads
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM                41 master
+               1 File(s)             41 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\refs\remotes
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM    <DIR>          origin
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\refs\remotes\origin
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM                32 HEAD
+               1 File(s)             32 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\.git\refs\tags
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\Code
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM                 2 Index.md
+               1 File(s)              2 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\Exercises
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM                 2 Index.md
+               1 File(s)              2 bytes
+
+ Directory of C:\Users\chris\CS350\Software-Engineering-\Lectures
+
+11/10/2017  07:34 PM    <DIR>          .
+11/10/2017  07:34 PM    <DIR>          ..
+11/10/2017  07:34 PM                 2 Index.md
+               1 File(s)              2 bytes
+
+     Total Files Listed:
+              36 File(s)         19,846 bytes
+              89 Dir(s)  370,627,002,368 bytes free
+
+C:\Users\chris\CS350\Software-Engineering->git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\chris\CS350\Software-Engineering->echo 'This is my CS350 Repo > welcome
+
+C:\Users\chris\CS350\Software-Engineering->git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        welcome
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\chris\CS350\Software-Engineering->git add .
+
+C:\Users\chris\CS350\Software-Engineering->git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   welcome
+
+
+C:\Users\chris\CS350\Software-Engineering->git commit -m "Welcome"
+[master 3c94ebc] Welcome
+ 1 file changed, 1 insertion(+)
+ create mode 100644 welcome
+
+C:\Users\chris\CS350\Software-Engineering->git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\chris\CS350\Software-Engineering->git pull
+Already up-to-date.
+
+C:\Users\chris\CS350\Software-Engineering->git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 290 bytes | 96.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/newb3839/Software-Engineering-.git
+   4773d30..3c94ebc  master -> master
+
+C:\Users\chris\CS350\Software-Engineering->
