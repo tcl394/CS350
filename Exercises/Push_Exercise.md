@@ -51,6 +51,8 @@ Open a console window with "Git CMD"
 
     C:\Users\xyz\350\Software-Engineering> git push
 
+Note:  There are now two Github accounts that you are using.  The push must happen from the account that is currently logged in to Github.  If git push fails then install and use Github Desktop instead of the "git bash" console.
+
 
 ### Confirm Changes
 
