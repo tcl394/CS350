@@ -1,7 +1,7 @@
-  *Shawn Dixon
-  *CS350
-  *11/22/17
-  *Dr. Seaman
+  *Shawn Dixon  
+  *CS350  
+  *11/22/17  
+  *Dr. Seaman  
 
 Exam 3
 
@@ -46,7 +46,7 @@ Social_Networking_Users.txt
 Social_Networking_Friends.txt
  
 
-**Listing Friends Test:*
+**Listing Friends Test:**
  
 
 Social_Networking_Friends.txt
@@ -64,7 +64,7 @@ Social_Networking_Friends.txt
 Social_Networking_Posts.txt
  
 
-Listing Topics Test:
+**Listing Topics Test:**
 
 *Note the topics and the titles are displayed, otherwise it is possible to have two topics of the same name, which does not give enough detail.*
 
