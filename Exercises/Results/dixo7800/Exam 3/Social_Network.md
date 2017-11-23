@@ -25,6 +25,12 @@ The Results are below.
 **Output from Runtime:**
 
  ![RunTime 1 Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/RunTime%201.PNG)
+ 
+ ![RunTime 2 Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/RunTime%202.PNG)
+ 
+ ![RunTime 3 Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/RunTime%203.PNG)
+ 
+ ![RunTime 4 Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/RunTime%204.PNG)
   
 
 **Registration Test:**
