@@ -105,7 +105,5 @@ Social_Networking_Posts.txt
 
 Resetting Data Test:
 
- 
-
-	This test does not produce any results as resetting the data deletes all of the files from the system and the user’s computer, so there is nothing to show. If you run all of the tests, at the end there will be no files present on your computer, that is thanks to this test.
+This test does not produce any results as resetting the data deletes all of the files from the system and the user’s computer, so there is nothing to show. If you run all of the tests, at the end there will be no files present on your computer, that is thanks to this test.
 
