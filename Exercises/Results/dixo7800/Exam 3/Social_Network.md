@@ -35,29 +35,36 @@ The Results are below.
 
 **Registration Test:**
 
- 
+![Registration Test Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/Registration.PNG)
 
 Social_Networking_Users.txt 
 
+![SNU Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/SNU%20Reg.PNG)
+
 **Login Test:**
 
- 
+![Login Test Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/Login.PNG)
 
 Social_Networking_Users.txt
+
+![SNU Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/SNU%20Reg.PNG)
  
 
 **Adding Friends Test:**
 
- 
+![AddFriends Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/AddFriends.PNG)
 
 Social_Networking_Friends.txt
  
+![SNF Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/SNF%20AddFriends.PNG) 
 
 **Listing Friends Test:**
  
+![Listing Friends Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/Listing%20Friends.PNG) 
 
 Social_Networking_Friends.txt
- 
+
+![SNF Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/SNF%20AddFriends.PNG)
 
 **Removing Friends Test:**
 
