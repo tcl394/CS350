@@ -23,7 +23,7 @@ The Results are below.
   *Posts.txt (used for exporting and importing testing)  
 
 **Output from Runtime:**
- 
+ ![RunTime 1 Image](CS350/Exercises/Results/dixo7800/Exam 3/RunTime 1.PNG)
   
 
 **Registration Test:**
