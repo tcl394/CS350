@@ -1,7 +1,7 @@
-Shawn Dixon
-CS350
-11/22/17
-Dr. Seaman
+-Shawn Dixon
+-CS350
+-11/22/17
+-Dr. Seaman
 
 Exam 3
 
@@ -22,64 +22,63 @@ The Results are below.
 •	Friends.txt (used for exporting and importing testing)
 •	Posts.txt (used for exporting and importing testing)
 
-Output from Runtime:
-
-![alt text] (D:\shawn\Documents\UNCO\CS 350\Exam 3\Images\RunTime 1.PNG)  
+**Output from Runtime:**
+ 
   
 
-Registration Test:
+**Registration Test:**
 
  
 
 Social_Networking_Users.txt 
 
-Login Test:
+**Login Test:**
 
  
 
 Social_Networking_Users.txt
  
 
-Adding Friends Test:
+**Adding Friends Test:**
 
  
 
 Social_Networking_Friends.txt
  
 
-Listing Friends Test:
+**Listing Friends Test:*
  
 
 Social_Networking_Friends.txt
  
 
-Removing Friends Test:
+**Removing Friends Test:**
 
  
 
 Social_Networking_Friends.txt
  
-Adding Topic Test:
+**Adding Topic Test:**
  
 
 Social_Networking_Posts.txt
  
 
 Listing Topics Test:
-*Note the topics and the titles are displayed, otherwise it is possible to have two topics of the same name, which does not give enough detail.
+*Note the topics and the titles are displayed, otherwise it is possible to have two topics of the same name, which does not give enough detail.*
 
  
 
 Social_Networking_Posts.txt
  
 
-Removing Topic Test:
+**Removing Topic Test:**
  
 
 Social_Networking_Posts.txt
  
 
-Export Data Test:
+**Export Data Test:**
 
  
 
@@ -92,7 +91,7 @@ Friends.txt
 Posts.txt
  
 
-Import Data Test:
+**Import Data Test:**
 
  
 
@@ -103,7 +102,7 @@ Social_Networking_Friends.txt
 Social_Networking_Posts.txt
  
 
-Resetting Data Test:
+**Resetting Data Test:**
 
  This test does not produce any results as resetting the data deletes all of the files from the system and the user’s computer, so there is nothing to show. If you run all of the tests, at the end there will be no files present on your computer, that is thanks to this test.
 
