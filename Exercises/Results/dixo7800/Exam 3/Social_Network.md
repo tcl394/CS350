@@ -23,6 +23,7 @@ The Results are below.
   *Posts.txt (used for exporting and importing testing)  
 
 **Output from Runtime:**
+
  ![RunTime 1 Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/RunTime%201.PNG)
   
 
