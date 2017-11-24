@@ -68,56 +68,79 @@ Social_Networking_Friends.txt
 
 **Removing Friends Test:**
 
- 
+![Remove Friends Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/RemoveFriend.PNG)
 
 Social_Networking_Friends.txt
+
+![SNF Removal Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/FriendRemoved.PNG)
  
 **Adding Topic Test:**
  
+![AddTopic Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/Adding%20Topics.PNG) 
 
 Social_Networking_Posts.txt
+
+![SNP Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/SNP%20AddTops.PNG)
  
 
 **Listing Topics Test:**
 
 *Note the topics and the titles are displayed, otherwise it is possible to have two topics of the same name, which does not give enough detail.*
 
- 
+![Listing Topics Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/List%20Topics.PNG)
 
 Social_Networking_Posts.txt
+
+![SNP Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/SNP%20AddTops.PNG)
  
 
 **Removing Topic Test:**
+
+![Remove Topic Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/Remove%20Topic.PNG)
  
 
 Social_Networking_Posts.txt
+
+![Removed Topic Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/RemovedTop.PNG)
  
 
 **Export Data Test:**
 
- 
+![Exporting Data Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/Exporting%20Data.PNG) 
 
 Users.txt
+
+![Users Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/ExportUsers.PNG)
  
 
 Friends.txt
- 
+
+![Friends Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/ExportFriends.PNG)
 
 Posts.txt
  
+![Posts Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/ExportPosts.PNG) 
 
 **Import Data Test:**
 
- 
+![Import Data Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/Importing%20Data.PNG)
 
 Social_Networking_Users.txt
+
+![SNUImport Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/ImportSNU.PNG)
  
 Social_Networking_Friends.txt
+
+![SNFImport Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/ImportSNF.PNG)
  
 Social_Networking_Posts.txt
+
+![SNPImport Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/ImportSNP.PNG)
  
 
 **Resetting Data Test:**
+
+![Reset Data Image](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/dixo7800/Exam%203/ResetData.PNG)
 
 *This test does not produce any results as resetting the data deletes all of the files from the system and the user’s computer, so there is nothing to show. If you run all of the tests, at the end there will be no files present on your computer, that is thanks to this test.*
 
