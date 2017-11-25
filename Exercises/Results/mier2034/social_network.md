@@ -33,3 +33,78 @@ User story: A user wants to add a new friend, the user enters friends email and 
 
 User story: A user wants to express how her day is going with her friends. She then posts a topic for her friends to see, the user can delete the topic if she chooses too. The user wants to post a topic on her friends profileshe does this by entering the topic information and the friends email. She can also choose to delte that topic. 
 
+# Design Plan:
+
+## Architecture:
+* Computer client - Web browser
+* Web server - http, urls to web pages
+* Application server - function interface
+* Database - CRUD for User, Topics, Friends
+
+## Interface:
+### Web Server Interface:
+* Login 
+	* register (name, email, password)
+	* login (email, password)
+*User
+	* add_topic(user, post)
+	* delete_post (user, post) 
+* Newsfeed
+	* list_topics (user)
+	* list_friens (user)
+* Friendship
+	* add_user(user)
+	* delete_user(user)
+
+
+
+### Web Server Interface (Functions)
+* User
+	* create_user (name, email, password)
+	* read_user (name, password) --> user_id
+	* list_user () --> user list
+	* update_user (name, email, password)
+	* delete_user (user_id)
+* Post
+	* create_topic (topic_id, topic)
+	* list_topic (user_id)	
+	* delete_topic (user_id)
+* Friendship
+	* add_user (user_id)
+	* delete_user (user_id)
+### Application Server Interface:
+* User
+	* CRUD - create, read, update, delete
+* topic
+	* CRUD - create, read, update, delete
+* Friendship
+	* CRUD - create, read, update, delete
+
+### Database Schema
+* User
+	* firstname, lastname, email, password
+* Topic
+	* title, topic, author
+
+* Friendship
+	* user, user
+
+## Data:
+### Facebook Clone Data
+* User
+	* name, email, password
+* Post
+	* User, topics
+* Friendship
+	* User, User
+	
+### Facebook Clone Classes
+* User
+	* name, email, password
+* Topic
+	* User, topic
+* Friendship
+	* User, User
+
+
+
