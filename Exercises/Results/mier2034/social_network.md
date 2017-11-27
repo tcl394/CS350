@@ -1,5 +1,10 @@
-![alt text](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/1Home.JPG)
+![Index](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/1Home.JPG)
 
+![Sign Up](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/2SignUp.JPG)
+
+![Home](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/3profile.JPG)
+
+![Home Continued](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/4profile_continued.JPG)
 
 # Project Plan
 
