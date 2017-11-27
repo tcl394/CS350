@@ -5,6 +5,8 @@
 ### Screen after hitting "Test All" button
 ![Sign Up](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/5test.JPG)
 
+![Link to test code](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/social_network_crud.php)
+
 ### SignUp Modal
 ![Sign Up](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/2SignUp.JPG)
 
