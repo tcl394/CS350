@@ -1,11 +1,14 @@
 
-### Login / Sign Up page
+### Login/SignUp Page
 ![Index](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/1Home.JPG)
 
+### SignUp Modal
 ![Sign Up](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/2SignUp.JPG)
 
+### User Profile Page
 ![Home](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/3profile.JPG)
 
+### User Profile Page Continued
 ![Home Continued](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/4profile_continued.JPG)
 
 # Project Plan
