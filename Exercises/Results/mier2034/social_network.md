@@ -3,6 +3,8 @@
 
 ![Link to implementation code](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/social_network_implementation.php)
 
+# Front end interface
+
 ### Login/SignUp Page
 ![Index](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/1Home.JPG)
 
