@@ -1,4 +1,4 @@
-![Alt text](CS350/Exercises/Results/mier2034/images/1Home.jpg?raw=true "Optional Title")
+![alt text](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/1Home.JPG)
 
 
 # Project Plan
