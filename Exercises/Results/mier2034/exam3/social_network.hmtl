@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<center><h2>Social Network</h2></center>
+
+<div class="container">
+<form class="" action="social_network_test.php" method="POST">
+  <input type="hidden" name="action" value="login" />
+  <label><b>Email</b></label>
+  <input type="text" placeholder="Enter Email" name="Email" id="Email" required>
+  <label><b>Password</b></label>
+  <input type="password" placeholder="Enter Password" name="Password" id="Password" required>
+  <button type="submit">Log In</button>
+</form>
+
+<center><button onclick="document.getElementById('id01').style.display='block'" style="">Sign Up</button></center>
+</div>
+
+
+<div id="id01" class="modal">
+  <form class="modal-content animate" action="social_network_test.php" method="POST">
+    <input type="hidden" name="action" value="signup" />
+    <div class="container">
+      <label><b>First Name</b></label>
+      <input type="text" id ="FirstName" placeholder="Enter First Name" name="FirstName" required>
+      <label><b>Last Name</b></label>
+      <input type="text" id ="LastName" placeholder="Enter Last Name" name="LastName" required>
+      <label><b>Email</b></label>
+      <input type="text" id ="Email" placeholder="Enter Email" name="Email" required>
+      <label><b>Password</b></label>
+      <input type="password" id ="Password" placeholder="Enter Password" name="Password" required>
+      <button type="submit">Sign Up</button>
+    </div>
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
+
+<center>
+<form class="" action="social_network_test.php" method="post">
+  <input type="hidden" name="action" value="testAll" />
+  <div class="container">
+
+  <button type="submit">Test all</button>
+  </div>
+</form>
+</center>
+
+<script>
+var modal = document.getElementById('id01');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
