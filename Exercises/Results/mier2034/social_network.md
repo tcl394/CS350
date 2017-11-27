@@ -2,7 +2,7 @@
 ### Login/SignUp Page
 ![Index](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/1Home.JPG)
 
-### Screen after hitting "all test" button
+### Screen after hitting "Test All" button
 ![Sign Up](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/5test.JPG)
 
 ### SignUp Modal
