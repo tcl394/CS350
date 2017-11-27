@@ -1,4 +1,4 @@
-![Alt text](1Home.jpg?raw=true "Optional Title")
+![Alt text](images/1Home.jpg?raw=true "Optional Title")
 
 
 # Project Plan
