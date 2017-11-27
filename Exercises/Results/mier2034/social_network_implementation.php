@@ -153,25 +153,7 @@ if (isset($_POST['action'])) {
              header("Location: social_network_home.php");
           }
           break;
-
-      case 'removeFriendTopic':
-            $conn = connectDB();
-            $title = $_POST['Title'];
-            $friend_email = $_POST['Email'];
-            $id = $_SESSION['ID'];
-
-           $sql = "SELECT id, auth from topics where topics.title = '$title' and topics.auth_id = '$id'";
-           $result = mysqli_query($conn, $sql);
-
-           if ($row = mysqli_fetch_assoc($result)) {
-             $top_id = $row['id'];
-             $auth = $row['auth'];
-             removeTopic($conn,$top_id,$auth);
-             header("Location: social_network_home.php");
-          }else {
-             header("Location: social_network_home.php");
-          }
-          break;
+		    
         case 'dropall':
           $conn = connectDB();
           $sql = "DROP TABLE user,topics,friends";
