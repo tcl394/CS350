@@ -22,6 +22,7 @@
         -Beginning with login into the system with username: user1, password: password1 (intent that the person.csv file exists at beginning)
         -Or register as a new user to access following options, then you can login with that account
         -UserID, postID are not auto random generated yet, we have to manually enter them.
+        -List of friends will provide the userID in this program
         -Add a friend into a list of user is written into friend.csv file, which is the first element will be the user, following elements are friend - userID
         -Reset all data will truncate all data in friend.csv,post.csv,and person.csv file
         -Export will create friend.txt,post.txt,and person.txt with current datas on .csv files
