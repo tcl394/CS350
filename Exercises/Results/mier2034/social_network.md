@@ -1,4 +1,4 @@
-![Alt text](images/1Home.jpg?raw=true "Optional Title")
+![Alt text](CS350/Exercises/Results/mier2034/images/1Home.jpg?raw=true "Optional Title")
 
 
 # Project Plan
