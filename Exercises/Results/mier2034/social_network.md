@@ -1,5 +1,4 @@
 
-![Link to test code](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/social_network_crud.php)
 
 ### Login/SignUp Page
 ![Index](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/1Home.JPG)
@@ -15,6 +14,12 @@
 
 ### User Profile Page Continued
 ![Home Continued](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/4profile_continued.JPG)
+
+
+
+![Link to test code](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/social_network_crud.php)
+
+
 
 # Project Plan
 
