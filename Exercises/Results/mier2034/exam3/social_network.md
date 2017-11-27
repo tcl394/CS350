@@ -1,7 +1,7 @@
 # Links to code
-![Link to test code](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/social_network_crud.php)
+![Link to test code](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/exam3/social_network_crud.php)
 
-![Link to implementation code](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/social_network_implementation.php)
+![Link to implementation code](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/exam3/social_network_implementation.php)
 
 # Front end interface
 
