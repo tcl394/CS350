@@ -3,7 +3,7 @@
 ![Index](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/1Home.JPG)
 
 ### Screen after hitting "all test" button
-https://github.com/UNC-CS350/CS350/tree/master/Exercises/Results/mier2034/images
+![Sign Up](https://github.com/UNC-CS350/CS350/tree/master/Exercises/Results/mier2034/images)
 
 ### SignUp Modal
 ![Sign Up](https://github.com/UNC-CS350/CS350/blob/master/Exercises/Results/mier2034/images/2SignUp.JPG)
