@@ -1,3 +1,6 @@
+![Alt text](1Home.jpg?raw=true "Optional Title")
+
+
 # Project Plan
 
 ### User registration
