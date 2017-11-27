@@ -34,7 +34,6 @@ def test_add_post():
     delete_post(text[-3])
 
 def test_delete_person():
-    #add_person('Nik','Jones','jone2032@bears.unco.edu',['none'])
     add_person('Mike','Jones','mj@mj.com',['too many'])
     people = read_csv('people.csv')
     userid = people[-5]
