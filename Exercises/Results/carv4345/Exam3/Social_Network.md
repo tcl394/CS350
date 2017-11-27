@@ -1,27 +1,27 @@
 Social_Network.md
 // Written by Robert Carver 11/20/17 - 11/26/17 for CS350. 
 
-Namespace Object Classes:
-	- User
-	- Post
+	Namespace Object Classes:
+		- User
+		- Post
 
-SocialMedia Class Methods:
-	- Booleans
-		* UserLogin
-		* InitUser
-		* InitPost
-		* Export Data
-		* Import Data
-		* ResetSystem
-		* DeleteUser
-		* DeletePost
-		* AddFriend
-		* DeleteFriend
-	- Lists
-		* GetFriends
-		* GetFriendPOsts
-	- Voids
-		* TestAll
+	SocialMedia Class Methods:
+		- Booleans
+			* UserLogin
+			* InitUser
+			* InitPost
+			* Export Data
+			* Import Data
+			* ResetSystem
+			* DeleteUser
+			* DeletePost
+			* AddFriend
+			* DeleteFriend
+		- Lists
+			* GetFriends
+			* GetFriendPOsts
+		- Voids
+			* TestAll
 
 The social media class contains two lists and a currentUser that is logged in once verified. All methods return something whether it be a boolean value or a list, web interface can easily determine from boolean values whether the method has ran correctly. 
 
