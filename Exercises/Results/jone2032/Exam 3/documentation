@@ -1,0 +1,64 @@
+Nik Jones
+
+# Exam 3 Documentation
+
+### Person
+
+*	Create user
+*	Delete user
+*	Get user’s name
+*	Update email address
+
+### Friend
+
+*	Add friend
+*	Delete Friend
+*	List friends
+*	List friend’s posts
+
+### Post
+
+*	Create post
+*	Update post (title or contents)
+*	Delete post
+*	List posts
+
+### System
+
+*	Export all data
+*	Import data
+*	Reset all data
+
+## User Stories:
+
+A person wants to create an account(person/user). They enter their first name, last name, email and their friends ids(can be added later) and their account is created.
+
+A person wants to delete their account. They enter their user id and the account is erased from the users file. This users posts are also all deleted.
+
+A person wants to change their email. They enter their userid and the new email and the system files are updated.
+
+A person wants to know a userid’s associated name. They enter in the userid and the user’s name is returned.
+
+A person wants to add a friend. They enter in their userid and their friend’s userid and the system is updated to reflect the friendship.
+
+A person wants to delete a friend. They enter their userid and their friend’s userid and the system is updated to remove the friendship.
+
+A person wants to see who all of their friends are. The user enters their userid and a list of their friends’ names are displayed.
+
+A person wants to see all of their friends’ posts. The user enters their userid and the system displays all of the posts made by all of their friends. 
+
+A person wants to create a post. They enter their userid, what the topic is and then what they wants the contents to say. This is saved in the posts file.
+
+A user wants to update the contents of a post. They enter the postid of the post they want to edit and what they want the new contents body to read.
+
+A user wants to update the topic of a post. They enter the postid of the post they want to edit and what they want the new topic to be.
+
+A person wants to delete a previous post. The user enters the postid of the post they want deleted and it will be removed from the system.
+
+A person wants to remove all of their previous posts. The user enters their userid and all of the posts associated with the userid are removed from the posts file.
+
+A user wants to export all of the data in the users and posts files. They select export csvs and the files are made into copies.
+
+A user wants to remove all files. The user selects reset all data and the files are reset to be blank. *notice the system will export a copy of the files before erasing data. 
+
+A user wants to import exported data into the system. The user selects import csvs and the exported files are copied into the working files. *note this is hard coded to import the export file path.
