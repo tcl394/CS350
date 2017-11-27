@@ -59,25 +59,25 @@ TestAll() method output:
 
 Visual Studio Build Log:
 
-Restoring NuGet packages...
-To prevent NuGet from restoring packages during build, open the Visual Studio Options dialog, click on the Package Manager node and uncheck 'Allow NuGet to download missing packages during build.'
-1>------ Build started: Project: unitTest, Configuration: Debug Any CPU ------
-1>unitTest -> f:\Documents\Visual Studio 2017\Projects\unitTest\unitTest\bin\Debug\netcoreapp2.0\unitTest.dll
-========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+	Restoring NuGet packages...
+	To prevent NuGet from restoring packages during build, open the Visual Studio Options dialog, click on the Package Manager node and uncheck 'Allow NuGet to download missing packages during build.'
+	1>------ Build started: Project: unitTest, Configuration: Debug Any CPU ------
+	1>unitTest -> f:\Documents\Visual Studio 2017\Projects\unitTest\unitTest\bin\Debug\netcoreapp2.0\unitTest.dll
+	========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
 
 
 Visual Studio Debug Log:
 
-'dotnet.exe' (CoreCLR: DefaultDomain): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Private.CoreLib.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'dotnet.exe' (CoreCLR: clrhost): Loaded 'f:\Documents\Visual Studio 2017\Projects\unitTest\unitTest\bin\Debug\netcoreapp2.0\unitTest.dll'. Symbols loaded.
-'dotnet.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Runtime.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'dotnet.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Collections.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'dotnet.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Console.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'dotnet.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Threading.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'dotnet.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Runtime.Extensions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'dotnet.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Linq.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-Exception thrown: 'System.NullReferenceException' in unitTest.dll
-Exception thrown: 'System.NullReferenceException' in unitTest.dll
-The program '[10180] dotnet.exe' has exited with code 0 (0x0).
+	'dotnet.exe' (CoreCLR: DefaultDomain): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Private.CoreLib.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+	'dotnet.exe' (CoreCLR: clrhost): Loaded 'f:\Documents\Visual Studio 2017\Projects\unitTest\unitTest\bin\Debug\netcoreapp2.0\unitTest.dll'. Symbols loaded.
+	'dotnet.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Runtime.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+	'dotnet.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Collections.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+	'dotnet.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Console.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+	'dotnet.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Threading.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+	'dotnet.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Runtime.Extensions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+	'dotnet.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Linq.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+	Exception thrown: 'System.NullReferenceException' in unitTest.dll
+	Exception thrown: 'System.NullReferenceException' in unitTest.dll
+	The program '[10180] dotnet.exe' has exited with code 0 (0x0).
 
 	
