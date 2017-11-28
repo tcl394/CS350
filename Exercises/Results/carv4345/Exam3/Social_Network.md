@@ -82,7 +82,7 @@ The social media class contains two lists and a currentUser that is logged in on
 	* A list of User objects. 
 * posts - List
 	* A list of Post objects. 
-currentUID - User
+* currentUID - User
 	* A logged in user. 
 
 ### Public Functions
