@@ -1,6 +1,6 @@
 Social_Network.md
 // Written by Robert Carver 11/20/17 - 11/26/17 for CS350. 
-
+# Overview
 	Namespace Object Classes:
 		- User
 		- Post
@@ -23,9 +23,121 @@ Social_Network.md
 		- Voids
 			* TestAll
 
-The social media class contains two lists and a currentUser that is logged in once verified. All methods return something whether it be a boolean value or a list, web interface can easily determine from boolean values whether the method has ran correctly. 
+# Object Class Description
+Both object classes contain methods and variables to maintain a user and a post object. The objects are used by the social media class to construct new users and new posts associated with users. 
+## User
+### Public Variables
+* First - string
+	* User first name
+* Last - string
+	* User last name
+* Email - string
+	* The accounts email
+* Uid - string
+	* The user identification number. Unique to each user. 
+* Posts - list
+	* A list of integers that contains the pID of all the the users posts.
+* Friends - list
+	* A list of strings that contains the Uid of each friend of the user. 
 
-The export and import methods save and load all user and post data to and from a .txt file. 
+### Public Functions
+* User
+	* Constructor, takes 4 strings and 2 lists as input. 
+* AddPost
+	* Parameters: int ID
+	* Return: void
+* RemovePost
+	* Parameters: int ID
+	* Return: void
+* AddFriend
+	* Parameters: string f
+	* Return: void
+* RemoveFriend
+	* Parameters: string f
+	* Return: void
+
+## Post
+### Public Variables
+* PID - int
+	* Post ID generated on the fly.
+* Content - string
+	* Content of the post.
+* Timestamp - string
+	* Time the post object was created (yyyy-MM-dd HH:mm:ss.ffffff).
+* TaggedUsers - string
+	* The users that are tagged in the post.
+* ownerID - string
+	* The Uid of the posts creator. 
+
+### Public Functions
+* Post
+	* Constructor, takes 1 int and 4 strings.
+* Gets and Sets for each variable. 
+
+# Social Media Class Description
+The social media class contains two lists and a currentUser that is logged in once verified. All methods return something whether it be a boolean value or a list, web interface can easily determine from boolean values whether the method has ran correctly. The export and import methods save and load all user and post data to and from a .txt file. 
+
+### Public Variables 
+* users - List
+	* A list of User objects. 
+* posts - List
+	* A list of Post objects. 
+currentUID - User
+	* A logged in user. 
+
+### Public Functions
+* UserLogin
+	* Parameters: string uid, string password
+	* Return: bool
+	* Description: Validates password against the UID and changes currentUId to UID if true. 
+* InitUser
+	* Parameters: string UID, string first, string last, string email, List posts, List friends
+	* Return: bool
+	* Description: Initializes a new User object with the given parameters and inserts the new User into the users list. 
+* InitPost
+	* Parameters: string content, string tagged, string oID
+	* Return: bool
+	* Description: Initializes a new Post object with the given parameters and inserts the new Post into the posts list & generates a post ID. 
+* ExportData
+	* Parameters: none
+	* Return: bool
+	* Description: Writes the users and posts lists to a symbol delimited txt file. 
+* ImportData
+	* Parameters: None
+	* Return: bool
+	* Description: Reads a symbol delimited txt file to initialize the contents of the users and posts lists.
+* ResetSystem
+	* Parameters: None
+	* Return: bool
+	* Description: Clears the users and symbols lists. 
+* DeleteUser
+	* Parameters: string uid
+	* Return: bool
+	* Description: Verifies the given User object exists and removes it from the users list. 
+* DeletePost
+	* Parameters: int pid, string uid
+	* Return: bool
+	* Description: Verifies the given Post object exists and removes it from both the posts list and the post list of the user using the USer object method removerPost. 
+* AddFriend
+	* Parameters: string uid, string friendUID
+	* Return: bool
+	* Description: Calls the addFriend method of the User object to add the friendUID to the friend list of the User and the uid to the friend list of the target friend. 
+* DeleteFriend 
+	* Parameters: string uid, string friendUID
+	* Return: bool
+	* Description: Calls the removeFriend method of the User object to remove the friend ID's from both the uid and friendUID users friend lists. 
+* GetFriends
+	* Parameters: string uid
+	* Return: List
+	* Description: Retrieves a list of the Uid's of all a users friends. 
+* GetFriendPosts
+	* Parameters: string uid
+	* Return: List
+	* Description: Retrieves a list of the Pid's of all a users friends posts.  
+* TestAll(Only found in social_network_test.cs)
+	* Parameters: None
+	* Return: Console Output
+	* Description: Runs a verbose check of all of the above methods, verifying they work. 
 
 TestAll() method output:
 
