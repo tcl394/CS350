@@ -35,3 +35,4 @@ List of Accounts:
 * aminunco - Fateh Amin
 * nick-alm - Nick Alm
 * cosmenaut - Cosme Martinez
+* loganbrandt-lb - Logan Brandt
