@@ -1,0 +1,10 @@
+C:\repositories\CS350\Exercises\Results\munn9422\exam2\social_network\social_network\bin\Debug\social_network.dll
+C:\repositories\CS350\Exercises\Results\munn9422\exam2\social_network\social_network\bin\Debug\social_network.pdb
+C:\repositories\CS350\Exercises\Results\munn9422\exam2\social_network\social_network\obj\Debug\social_network.csprojResolveAssemblyReference.cache
+C:\repositories\CS350\Exercises\Results\munn9422\exam2\social_network\social_network\obj\Debug\social_network.dll
+C:\repositories\CS350\Exercises\Results\munn9422\exam2\social_network\social_network\obj\Debug\social_network.pdb
+C:\repositories\CS350\Exercises\Results\bran5689\social_network\social_network\bin\Debug\social_network.dll
+C:\repositories\CS350\Exercises\Results\bran5689\social_network\social_network\bin\Debug\social_network.pdb
+C:\repositories\CS350\Exercises\Results\bran5689\social_network\social_network\obj\Debug\social_network.csprojResolveAssemblyReference.cache
+C:\repositories\CS350\Exercises\Results\bran5689\social_network\social_network\obj\Debug\social_network.dll
+C:\repositories\CS350\Exercises\Results\bran5689\social_network\social_network\obj\Debug\social_network.pdb
