@@ -1,2 +1,0 @@
-C:\Users\kmanr\Source\Repos\Social Media Exam\Social Media Exam\obj\Debug\Social Media Exam.csprojResolveAssemblyReference.cache
-C:\Users\kmanr\Source\Repos\Social Media Exam\Social Media Exam\obj\Debug\Social Media Exam.csproj.CoreCompileInputs.cache
