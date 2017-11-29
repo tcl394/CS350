@@ -12,7 +12,7 @@ function test_create_user(first, last, password, email){
 
 }
 
-function test_create_post(creator_id, title, body){ //TODO <--
+function test_create_post(creator_id, title, body){ 
     console.log("Testing post creation");
     post_model.create_post(creator_id, title, body);
 
