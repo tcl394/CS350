@@ -110,4 +110,26 @@ All tests were made sure that they could fail.
 * Friendship
 	* User, User
 
+## Classes and functions:
+
+* Database class:
+	* Backup()
+	* Import()
+	* EraseAllData()
+	
+* DBConnector class:
+	* Connect()
+	* ShowsTable(String tableName)
+
+* Users class:
+	* RegisterUser(String firstname, String lastname, String email, String password)
+	* ListofFriends(String id)
+	* makeFriends(String userid, String friendid)
+	* eraseFriendship(String userid, String friendid)
+	* ShowPosts(String receiverid)
+	* addPostFrom(String senderid, String receiverid, String text)
+	* erasePost(String postid)
+	
+* social_network_test class
+
 
