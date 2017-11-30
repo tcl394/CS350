@@ -24,7 +24,7 @@ A user can add a topic to their list of topics. They provide the content of the 
 ### Removing Topics
 A user can remove a topic from their list of topics. The system will take it off of the user's list, and the post will be gone.
 
-#System stories
+# System stories
 ### Resetting All Data
 Perhaps the administrator is feeling sadistic (or just desparately needs to erase all data from the system). The administrator can use the MasterReset function to overwite the user_list.csv to a blank slate.
 ### Exporting Data
