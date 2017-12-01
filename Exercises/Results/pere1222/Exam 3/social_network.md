@@ -76,6 +76,7 @@ All tests were made sure that they could fail.
 * Friendship
 	* add_user (user_id)
 	* delete_user (user_id)
+	
 ### Application Server Interface:
 * User
 	* CRUD - create, read, update, delete
@@ -87,28 +88,12 @@ All tests were made sure that they could fail.
 ### Database Schema
 * User
 	* firstname, lastname, email, password
-* Topic
-	* title, topic, author
+* Post (Topic)
+	* idpost, senderid, receiverid, text
 
 * Friendship
 	* user, user
 
-## Data:
-### Facebook Clone Data
-* User
-	* name, email, password
-* Post
-	* User, topics
-* Friendship
-	* User, User
-	
-### Facebook Clone Classes
-* User
-	* name, email, password
-* Topic
-	* User, topic
-* Friendship
-	* User, User
 
 ## Classes and functions:
 
